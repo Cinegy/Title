@@ -1,2 +1,2 @@
-# Titler
-Demo Titler Scenes For Customers &amp; Partners
+# Title
+Demo Title Scenes For Customers &amp; Partners
