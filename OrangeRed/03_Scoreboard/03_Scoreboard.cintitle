@@ -1,0 +1,246 @@
+<CinegyTitler Version="2.2">
+  <RootFolder Path="\\munich.cinegy.local\global\CompanyFiles\ProductManagement\Titler-Reference-Scenes\Generic Templates For Customers\OrangeRed\03_Scoreboard\" />
+  <Variables>
+    <Var Name="Team1Name.Text" Type="String" UpdateType="Instant" Value="TEAM 1" />
+    <Var Name="Team2Name.Text" Type="String" UpdateType="Instant" Value="TEAM 2" />
+    <Var Name="Team1Score.Text" Type="String" UpdateType="Instant" Value="0" />
+    <Var Name="Team2Score.Text" Type="String" UpdateType="Instant" Value="0" />
+    <Var Name="MatchTimer.Start Value" Type="Float" UpdateType="Instant" Value="0.00" />
+    <Var Name="MatchTimer.Run" Type="Bool" UpdateType="Instant" Value="True" />
+  </Variables>
+  <Scene Width="1920" Height="1080" Fps="25.000" Progressive="false" Aspect="16:9" Duration="49" Name="Scoreboard" EditorFlags="4" PlayMode="Loop" LoopStartFrame="35" LoopEndFrame="40" LoopCount="-1" BackgroundColor="FF000000">
+    <Group Name="Scene" EditorFlags="8" Start="1" Duration="48" Position="-634.00;460.00;0.00">
+      <Opacity>
+        <Linear Frame="43" Value="100" />
+        <Linear Frame="48" Value="0" />
+      </Opacity>
+      <Group Name="Timer" Start="1" Duration="48" Position="279.00;0.00;0.00">
+        <Plate Name="TimerMask" EditorFlags="8" Start="1" Duration="48" Size="110.00;49.00">
+          <Mask />
+        </Plate>
+        <Group Name="TimerAnimGroup" Start="1" Duration="48">
+          <Opacity>
+            <Linear Frame="25" Value="0" />
+            <Linear Frame="27" Value="100" />
+          </Opacity>
+          <Position>
+            <X>
+              <Linear Frame="25" Value="-100.00" />
+              <Linear Frame="30" Value="0.00" />
+            </X>
+          </Position>
+          <Plate Name="TimerBox" Start="1" Duration="48" Size="110.00;49.00" Source="File" File=".\_Assets\gri_saat.png" />
+          <Clock Name="MatchTimer" Start="1" Duration="48" Color="FF000000" Size="90.00;49.00" Position="5.00;0.00;0.00" Font="Century Gothic;Regular;35;true;false" Run="${MatchTimer.Run}" Type="Stopwatch" TimeFormat="mm:ss" StartValue="${MatchTimer.Start Value}" TimeOffset="00:00:00.000" />
+        </Group>
+      </Group>
+      <Group Name="Team1" Start="1" Duration="48" Position="-115.00;0.00;0.00">
+        <Plate Name="Team1Background" Start="1" Duration="48" Opacity="0" Size="85.80;49.00" Position="72.54;0.00;0.00" Source="File" File=".\_Assets\orange_bg.png" FillMode="Fill">
+          <Opacity>
+            <Linear Frame="7" Value="0" />
+            <Linear Frame="11" Value="100" />
+          </Opacity>
+          <Size>
+            <X>
+              <Linear Frame="7" Value="0.00" />
+              <Linear Frame="11" Value="85.00" />
+              <Linear Frame="16" Value="232.00" />
+            </X>
+          </Size>
+          <Position>
+            <X>
+              <Linear Frame="7" Value="115.00" />
+              <Linear Frame="11" Value="73.00" />
+              <Linear Frame="16" Value="0.00" />
+            </X>
+          </Position>
+        </Plate>
+        <Plate Name="Team1ScoreBox" Start="1" Duration="48" Size="4.00;5.11" Position="111.00;21.95;0.00" Source="File" File=".\_Assets\gri_bg.png" FillMode="Fill">
+          <Size>
+            <X>
+              <Linear Frame="5" Value="4.00" />
+              <Linear Frame="11" Value="78.00" />
+            </X>
+            <Y>
+              <Linear Frame="3" Value="0.00" />
+              <Linear Frame="5" Value="49.00" />
+            </Y>
+          </Size>
+          <Position>
+            <X>
+              <Linear Frame="5" Value="111.00" />
+              <Linear Frame="11" Value="74.00" />
+            </X>
+            <Y>
+              <Linear Frame="3" Value="25.00" />
+              <Linear Frame="5" Value="0.00" />
+            </Y>
+          </Position>
+        </Plate>
+        <Text Name="Team1Score" Start="1" Duration="48" Color="FF000000" Opacity="0" Size="70.00;49.00" Position="78.00;10.00;0.00" Font="Century Gothic;Regular;50;true;false" TextVAlign="Center" Value="${Team1Score.Text}">
+          <Opacity>
+            <Linear Frame="11" Value="0" />
+            <Linear Frame="13" Value="100" />
+          </Opacity>
+          <Position>
+            <Y>
+              <Linear Frame="11" Value="10.00" />
+              <Linear Frame="13" Value="0.00" />
+            </Y>
+          </Position>
+          <TextAutoFit MinSize="40" PreferredSize="50" MinSpacing="-5.00;-5.00;-22.00" />
+        </Text>
+        <Plate Name="Team1LightMask" Start="1" Duration="48" Size="232.00;49.00">
+          <Mask />
+        </Plate>
+        <Group Name="Team1LightBoxGroup" EditorFlags="8" Start="1" Duration="48" Opacity="0" Position="146.00;0.00;0.00" Rotation="0.00;0.00;-147.00">
+          <Opacity>
+            <Linear Frame="8" Value="0" />
+            <Linear Frame="11" Value="100" />
+            <Linear Frame="17" Value="100" />
+            <Linear Frame="18" Value="50" />
+            <Linear Frame="19" Value="0" />
+          </Opacity>
+          <Position>
+            <X>
+              <Linear Frame="8" Value="200.00" />
+              <Linear Frame="9" Value="146.00" />
+              <Linear Frame="11" Value="115.00" />
+              <Linear Frame="15" Value="1.00" />
+              <Linear Frame="17" Value="-96.00" />
+              <Linear Frame="19" Value="-200.00" />
+            </X>
+          </Position>
+          <Plate Name="Team1LightBoxBig" EditorFlags="8" Start="1" Duration="48" Opacity="20" Size="110.00;140.00" />
+          <Plate Name="Team1LightBoxSmall" EditorFlags="8" Start="1" Duration="48" Opacity="35" Size="75.00;120.00" />
+        </Group>
+        <Plate Name="Team1TextMask" EditorFlags="8" Start="1" Duration="48" Size="220.00;160.00" Position="0.00;-19.00;0.00" Rotation="0.00;0.00;-147.00">
+          <Position>
+            <X>
+              <Linear Frame="13" Value="13.00" />
+              <Linear Frame="14" Value="-25.00" />
+              <Linear Frame="15" Value="-51.00" />
+              <Linear Frame="16" Value="-100.00" />
+              <Linear Frame="17" Value="-149.00" />
+              <Linear Frame="18" Value="-201.00" />
+              <Linear Frame="19" Value="-260.00" />
+            </X>
+          </Position>
+          <Mask Invert="true" />
+        </Plate>
+        <Text Name="Team1Name" EditorFlags="8" Start="1" Duration="48" Size="140.00;49.00" Position="-40.00;0.00;0.00" Font="Century Gothic;Regular;32;true;false" WordWrap="false" TextVAlign="Center" Value="${Team1Name.Text}">
+          <TextAutoFit MinSize="22" PreferredSize="32" MinSpacing="-3.00;-3.00;-14.00" />
+        </Text>
+        <Plate Name="Team1Gradident" Start="1" Duration="48" Opacity="0" Size="232.00;45.00" Source="File" File=".\_Assets\gradient_.png" FillMode="Fill">
+          <Opacity>
+            <Linear Frame="15" Value="0" />
+            <Linear Frame="19" Value="35" />
+          </Opacity>
+        </Plate>
+      </Group>
+      <Group Name="Team2" Start="1" Duration="48" Position="115.00;0.00;0.00">
+        <Plate Name="Team2Background" Start="1" Duration="48" Size="232.00;49.00" Rotation="0.00;-180.00;0.00" Source="File" File=".\_Assets\orange_bg.png" FillMode="Fill">
+          <Opacity>
+            <Linear Frame="7" Value="0" />
+            <Linear Frame="11" Value="100" />
+          </Opacity>
+          <Size>
+            <X>
+              <Linear Frame="7" Value="0.00" />
+              <Linear Frame="11" Value="85.00" />
+              <Linear Frame="16" Value="232.00" />
+            </X>
+          </Size>
+          <Position>
+            <X>
+              <Linear Frame="7" Value="-115.00" />
+              <Linear Frame="11" Value="-73.00" />
+              <Linear Frame="16" Value="0.00" />
+            </X>
+          </Position>
+        </Plate>
+        <Plate Name="Team2ScoreBox" Start="1" Duration="48" Size="4.00;24.50" Position="111.00;12.50;0.00" Rotation="0.00;-180.00;0.00" Source="File" File=".\_Assets\gri_bg.png" FillMode="Fill">
+          <Size>
+            <X>
+              <Linear Frame="5" Value="4.00" />
+              <Linear Frame="11" Value="78.00" />
+            </X>
+            <Y>
+              <Linear Frame="3" Value="0.00" />
+              <Linear Frame="5" Value="49.00" />
+            </Y>
+          </Size>
+          <Position>
+            <X>
+              <Linear Frame="5" Value="-111.00" />
+              <Linear Frame="11" Value="-74.00" />
+            </X>
+            <Y>
+              <Linear Frame="3" Value="25.00" />
+              <Linear Frame="5" Value="0.00" />
+            </Y>
+          </Position>
+        </Plate>
+        <Text Name="Team2Score" Start="1" Duration="48" Color="FF000000" Size="70.00;49.00" Position="-78.00;5.00;0.00" Font="Century Gothic;Regular;50;true;false" TextVAlign="Center" Value="${Team2Score.Text}">
+          <Opacity>
+            <Linear Frame="11" Value="0" />
+            <Linear Frame="13" Value="100" />
+          </Opacity>
+          <Position>
+            <Y>
+              <Linear Frame="11" Value="10.00" />
+              <Linear Frame="13" Value="0.00" />
+            </Y>
+          </Position>
+          <TextAutoFit MinSize="40" PreferredSize="50" MinSpacing="-5.00;-5.00;-22.00" />
+        </Text>
+        <Plate Name="Team2LightMask" Start="1" Duration="48" Size="232.00;49.00">
+          <Mask />
+        </Plate>
+        <Group Name="Team2LightBoxGroup" Start="1" Duration="48" Position="-96.00;0.00;0.00" Rotation="0.00;0.00;147.00">
+          <Opacity>
+            <Linear Frame="8" Value="0" />
+            <Linear Frame="11" Value="100" />
+            <Linear Frame="17" Value="100" />
+            <Linear Frame="18" Value="50" />
+            <Linear Frame="19" Value="0" />
+          </Opacity>
+          <Position>
+            <X>
+              <Linear Frame="8" Value="-200.00" />
+              <Linear Frame="9" Value="-146.00" />
+              <Linear Frame="11" Value="-115.00" />
+              <Linear Frame="15" Value="-1.00" />
+              <Linear Frame="17" Value="96.00" />
+              <Linear Frame="19" Value="200.00" />
+            </X>
+          </Position>
+          <Plate Name="Team2LightBoxBig" Start="1" Duration="48" Opacity="20" Size="110.00;140.00" />
+          <Plate Name="Team2LightBoxSmall" Start="1" Duration="48" Opacity="35" Size="75.00;120.00" />
+        </Group>
+        <Plate Name="Team2TextMask" Start="1" Duration="48" Size="220.00;160.00" Position="-149.00;-19.00;0.00" Rotation="0.00;0.00;147.00">
+          <Position>
+            <X>
+              <Linear Frame="13" Value="-13.00" />
+              <Linear Frame="14" Value="25.00" />
+              <Linear Frame="15" Value="51.00" />
+              <Linear Frame="16" Value="100.00" />
+              <Linear Frame="17" Value="149.00" />
+              <Linear Frame="18" Value="201.00" />
+              <Linear Frame="19" Value="260.00" />
+            </X>
+          </Position>
+          <Mask Invert="true" />
+        </Plate>
+        <Text Name="Team2Name" Start="1" Duration="48" Size="140.00;49.00" Position="40.00;0.00;0.00" Font="Century Gothic;Regular;32;true;false" WordWrap="false" TextVAlign="Center" Value="${Team2Name.Text}">
+          <TextAutoFit MinSize="22" PreferredSize="32" MinSpacing="-3.00;-3.00;-14.00" />
+        </Text>
+        <Plate Name="Team2Gradident" Start="1" Duration="48" Opacity="0" Size="232.00;45.00" Rotation="0.00;-180.00;0.00" Source="File" File=".\_Assets\gradient_.png" FillMode="Fill">
+          <Opacity>
+            <Linear Frame="15" Value="0" />
+            <Linear Frame="19" Value="35" />
+          </Opacity>
+        </Plate>
+      </Group>
+    </Group>
+  </Scene>
+</CinegyTitler>

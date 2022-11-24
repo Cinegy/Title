@@ -1,0 +1,105 @@
+<CinegyTitler Version="2.2">
+  <RootFolder Path="\\munich.cinegy.local\global\CompanyFiles\ProductManagement\Titler-Reference-Scenes\Generic Templates For Customers\OrangeRed\06_Emergency\" />
+  <Variables>
+    <Var Name="TopText.Text" Type="String" UpdateType="Instant" Value="WE ARE HAVING&#xA;TECHNICAL DIFFICULTIES" />
+    <Var Name="BottomText.Text" Type="String" UpdateType="Instant" Value="PLEASE STANDBY" />
+  </Variables>
+  <Scene Width="1920" Height="1080" Fps="25.000" Progressive="false" Aspect="16:9" Duration="49" Name="Emergency" PlayMode="Loop" LoopStartFrame="30" LoopEndFrame="40" LoopCount="-1" BackgroundColor="FF000000">
+    <Group Name="Scene" Start="1" Duration="48">
+      <Opacity>
+        <Linear Frame="42" Value="100" />
+        <Linear Frame="47" Value="0" />
+      </Opacity>
+      <Group Name="Background" Start="1" Duration="48">
+        <Plate Name="BackgroundPlate" Start="1" Duration="48" Size="1920.00;1080.00" Source="File" File=".\_Assets\bg.png" FillMode="Fill">
+          <Opacity>
+            <Linear Frame="2" Value="0" />
+            <Linear Frame="10" Value="100" />
+          </Opacity>
+        </Plate>
+        <Plate Name="BackgroundGradient" Start="1" Duration="48" Opacity="25" Size="1920.00;1080.00" Source="File" File=".\_Assets\gradient_.png" FillMode="Fill">
+          <Opacity>
+            <Linear Frame="14" Value="0" />
+            <Linear Frame="20" Value="25" />
+          </Opacity>
+        </Plate>
+        <Group Name="BackgroundLightGroup" Start="1" Duration="48" Position="-1600.00;0.00;0.00" Rotation="0.00;0.00;147.00">
+          <Position>
+            <X>
+              <Linear Frame="6" Value="-1750.00" />
+              <Linear Frame="7" Value="-1225.00" />
+              <Linear Frame="8" Value="-870.00" />
+              <Linear Frame="9" Value="-520.00" />
+              <Linear Frame="10" Value="-160.00" />
+              <Linear Frame="11" Value="195.00" />
+              <Linear Frame="12" Value="545.00" />
+              <Linear Frame="13" Value="905.00" />
+              <Linear Frame="14" Value="1259.00" />
+              <Linear Frame="15" Value="1750.00" />
+            </X>
+          </Position>
+          <Plate Name="BackgroundLightBoxBig" Start="1" Duration="48" Opacity="20" Size="440.00;1610.00" />
+          <Plate Name="BackgroundLightBoxSmall" Start="1" Duration="48" Opacity="35" Size="310.00;1610.00" />
+        </Group>
+        <Group Name="TextArea" Start="1" Duration="48">
+          <Plate Name="WarningSign" Start="1" Duration="48" Opacity="0" Size="193.00;178.00" Position="0.00;228.00;0.00" Source="File" File=".\_Assets\warning.png">
+            <Opacity>
+              <Linear Frame="13" Value="0" />
+              <Linear Frame="18" Value="100" />
+            </Opacity>
+            <Position>
+              <Y>
+                <Linear Frame="14" Value="228.00" />
+                <Linear Frame="15" Value="222.00" />
+                <Linear Frame="16" Value="215.00" />
+                <Linear Frame="17" Value="210.00" />
+                <Linear Frame="18" Value="203.00" />
+              </Y>
+            </Position>
+          </Plate>
+          <Plate Name="TextBackGround" EditorFlags="4" Start="1" Duration="48" Opacity="0" Size="1920.00;270.00" Position="0.00;-82.00;0.00" Source="File" File=".\_Assets\side_bg.png" FillMode="Fill">
+            <Opacity>
+              <Linear Frame="16" Value="0" />
+              <Linear Frame="21" Value="100" />
+            </Opacity>
+            <Position>
+              <Y>
+                <Linear Frame="17" Value="-62.00" />
+                <Linear Frame="21" Value="-79.00" />
+              </Y>
+            </Position>
+          </Plate>
+          <Text Name="TopText" EditorFlags="8" Start="1" Duration="48" Color="FF000000" Opacity="0" Size="1535.00;230.00" Position="0.00;-79.00;0.00" Font="Century Gothic;Regular;110;true;false" TextVAlign="Center" Value="${TopText.Text}">
+            <Opacity>
+              <Linear Frame="16" Value="0" />
+              <Linear Frame="21" Value="100" />
+            </Opacity>
+            <Position>
+              <Y>
+                <Linear Frame="17" Value="-62.00" />
+                <Linear Frame="21" Value="-79.00" />
+              </Y>
+            </Position>
+            <TextAutoFit MinSize="85" PreferredSize="110" MinSpacing="-10.00;-10.00;-42.00" />
+          </Text>
+          <Text Name="BottomText" EditorFlags="8" Start="1" Duration="48" Opacity="0" Size="1535.00;230.00" Position="0.00;-286.00;0.00" Font="Century Gothic;Regular;130;true;false" WordWrap="false" TextVAlign="Center" Value="${BottomText.Text}">
+            <Opacity>
+              <Linear Frame="20" Value="0" />
+              <Linear Frame="25" Value="100" />
+            </Opacity>
+            <Position>
+              <Y>
+                <Linear Frame="21" Value="-270.00" />
+                <Linear Frame="22" Value="-274.00" />
+                <Linear Frame="23" Value="-278.00" />
+                <Linear Frame="24" Value="-282.00" />
+                <Linear Frame="25" Value="-286.00" />
+              </Y>
+            </Position>
+            <TextAutoFit MinSize="110" PreferredSize="130" MinSpacing="-14.00;-14.00;-57.00" />
+          </Text>
+        </Group>
+      </Group>
+    </Group>
+  </Scene>
+</CinegyTitler>
