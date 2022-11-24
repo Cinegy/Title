@@ -1,5 +1,5 @@
 <CinegyTitler Version="2.3">
-  <RootFolder Path="C:\Data\Dev\Git\Cinegy.Title\" />
+  <RootFolder Path="C:\Data\Dev\Git\Cinegy.Title\Football\" />
   <Variables>
     <Var Name="TITLE.Text" Type="String" UpdateType="Instant" Value="HAKEMLER" />
     <Var Name="REF.Text" Type="String" UpdateType="Instant" Value="Anthony Taylor" />
@@ -7,7 +7,7 @@
   </Variables>
   <Scene Width="1920" Height="1080" Fps="25.000" Progressive="false" Aspect="16:9" Duration="50" Name="REF" PlayMode="Loop" LoopStartFrame="21" LoopEndFrame="24" LoopCount="-1" BackgroundColor="FF000000">
     <Group Name="SCENE" Start="1" Duration="49" Opacity="92">
-      <Plate Name="BACKGROUND" EditorFlags="4" Start="1" Duration="48" Size="1920.00;1080.00" Source="File" File=".\Football\REF.mxf" />
+      <Plate Name="BACKGROUND" EditorFlags="4" Start="1" Duration="48" Size="1920.00;1080.00" Source="File" File=".\Sources\REF.mxf" />
       <Group Name="TEXT" Start="1" Duration="49">
         <Text Name="REF" Duration="49" Opacity="0" Size="235.00;45.00" Position="0.00;-373.00;0.00" Font="Century Gothic;Regular;40;true;false" WordWrap="false" TextVAlign="Center" Value="${REF.Text}">
           <Opacity>

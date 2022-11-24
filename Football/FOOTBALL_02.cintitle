@@ -1,7 +1,7 @@
 <CinegyTitler Version="2.3">
-  <RootFolder Path="C:\Data\Dev\Git\Cinegy.Title\" />
+  <RootFolder Path="C:\Data\Dev\Git\Cinegy.Title\Football\" />
   <Variables>
-    <Var Name="TEAMLOGO.File" Type="File" UpdateType="Instant" Value=".\Football\Chelsea_FC.png" />
+    <Var Name="TEAMLOGO.File" Type="File" UpdateType="Instant" Value=".\Sources\Chelsea_FC.png" />
     <Var Name="TEAMNAME.Text" Type="String" UpdateType="Instant" Value="CHELSEA" />
     <Var Name="NO_01.Text" Type="String" UpdateType="Instant" Value="16" />
     <Var Name="NAME_01.Text" Type="String" UpdateType="Instant" Value="Edouard [b]Mendy[/b]" />
@@ -34,7 +34,7 @@
         <Linear Frame="48" Value="100" />
         <Linear Frame="50" Value="0" />
       </Opacity>
-      <Plate Name="BACKGROUND" EditorFlags="4" Start="1" Duration="49" Size="1920.00;1080.00" Source="File" File=".\Football\SQUAD.mxf" />
+      <Plate Name="BACKGROUND" EditorFlags="4" Start="1" Duration="49" Size="1920.00;1080.00" Source="File" File=".\Sources\SQUAD.mxf" />
       <Plate Name="TEAMLOGO" Start="1" Duration="49" Size="350.00;350.00" Position="216.00;0.00;0.00" Source="File" File="${TEAMLOGO.File}" FillMode="Fill">
         <Opacity>
           <Linear Frame="22" Value="0" />

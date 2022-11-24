@@ -1,5 +1,5 @@
 <CinegyTitler Version="2.3">
-  <RootFolder Path="C:\Data\Dev\Git\Cinegy.Title\" />
+  <RootFolder Path="C:\Data\Dev\Git\Cinegy.Title\Football\" />
   <Variables>
     <Var Name="TEAM1.Text" Type="String" UpdateType="Instant" Value="CHE" />
     <Var Name="TEAM2.Text" Type="String" UpdateType="Instant" Value="LIV" />
@@ -8,8 +8,8 @@
     <Var Name="CLOCK.Text" Type="String" UpdateType="Instant" Value="90:00" />
     <Var Name="EKINFO.Visible" Type="Bool" UpdateType="Instant" Value="False" />
     <Var Name="INFOTEXT.Text" Type="String" UpdateType="Instant" Value="+5" />
-    <Var Name="TEAM1LOGO.File" Type="File" UpdateType="Instant" Value=".\Football\Chelsea_FC.png" />
-    <Var Name="TEAM2LOGO.File" Type="File" UpdateType="Instant" Value=".\Football\Liverpool.png" />
+    <Var Name="TEAM1LOGO.File" Type="File" UpdateType="Instant" Value=".\Sources\Chelsea_FC.png" />
+    <Var Name="TEAM2LOGO.File" Type="File" UpdateType="Instant" Value=".\Sources\Liverpool.png" />
   </Variables>
   <Scene Width="1920" Height="1080" Fps="25.000" Progressive="false" Aspect="16:9" Duration="110" Name="TIMER" PlayMode="Loop" LoopStartFrame="80" LoopEndFrame="85" LoopCount="-1" BackgroundColor="FF000000">
     <Group Name="SCENE" Start="1" Duration="109" Opacity="92" Position="-7.00;11.00;0.00">
@@ -20,13 +20,13 @@
           <Linear Frame="100" Value="100" />
           <Linear Frame="105" Value="0" />
         </Opacity>
-        <Plate Name="INFOBAR" EditorFlags="8" Start="1" Duration="109" Size="1920.00;1080.00" Position="-4.00;0.00;0.00" Source="File" File=".\Football\ADD.png" />
+        <Plate Name="INFOBAR" EditorFlags="8" Start="1" Duration="109" Size="1920.00;1080.00" Position="-4.00;0.00;0.00" Source="File" File=".\Sources\ADD.png" />
         <Text Name="INFOTEXT" Start="1" Duration="109" Color="FF000000" Size="40.00;25.00" Position="-668.00;459.00;0.00" Font="Century Gothic;Regular;30;true;false" TextVAlign="Center" Value="${INFOTEXT.Text}" />
       </Group>
-      <Plate Name="BACKGROUND" EditorFlags="4" Start="1" Duration="109" Size="1920.00;1080.00" Source="File" File=".\Football\TIMER.mxf" />
+      <Plate Name="BACKGROUND" EditorFlags="4" Start="1" Duration="109" Size="1920.00;1080.00" Source="File" File=".\Sources\TIMER.mxf" />
       <Group Name="CONTENT" Start="1" Duration="109">
         <Group Name="TEAMCOLORS" Start="1" Duration="109">
-          <Plate Name="TEAMMASK" Start="1" Duration="109" Color="FFC90000" Opacity="0" Size="1920.00;1080.00" Position="-80.00;0.00;0.00" Source="File" File=".\Football\TIMERLOGO_MASK.png" FillMode="Fill">
+          <Plate Name="TEAMMASK" Start="1" Duration="109" Color="FFC90000" Opacity="0" Size="1920.00;1080.00" Position="-80.00;0.00;0.00" Source="File" File=".\Sources\TIMERLOGO_MASK.png" FillMode="Fill">
             <Opacity>
               <Linear Frame="23" Value="0" />
               <Linear Frame="30" Value="100" />

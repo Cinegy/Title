@@ -1,15 +1,15 @@
 <CinegyTitler Version="2.3">
-  <RootFolder Path="C:\Data\Dev\Git\Cinegy.Title\" />
+  <RootFolder Path="C:\Data\Dev\Git\Cinegy.Title\Football\" />
   <Variables>
     <Var Name="VENUE.Text" Type="String" UpdateType="Instant" Value="STAMFORD BRIDGE, LONDON" />
     <Var Name="TEAM1NAME.Text" Type="String" UpdateType="Instant" Value="CHELSEA" />
     <Var Name="TEAM2NAME.Text" Type="String" UpdateType="Instant" Value="LIVERPOOL" />
-    <Var Name="TEAM1LOGO.File" Type="File" UpdateType="Instant" Value=".\Football\Chelsea_FC.png" />
-    <Var Name="TEAM2LOGO.File" Type="File" UpdateType="Instant" Value=".\Football\Liverpool.png" />
+    <Var Name="TEAM1LOGO.File" Type="File" UpdateType="Instant" Value=".\Sources\Chelsea_FC.png" />
+    <Var Name="TEAM2LOGO.File" Type="File" UpdateType="Instant" Value=".\Sources\Liverpool.png" />
   </Variables>
   <Scene Width="1920" Height="1080" Fps="25.000" Progressive="false" Aspect="16:9" Duration="185" Name="MATCH ID" EditorFlags="4" PlayMode="Loop" LoopStartFrame="145" LoopEndFrame="150" LoopCount="-1" BackgroundColor="FF000000">
     <Group Name="SCENE" Start="1" Duration="184">
-      <Plate Name="BACKGROUND" Start="1" Duration="184" Size="1920.00;1080.00" Source="File" File=".\Football\ID.mxf">
+      <Plate Name="BACKGROUND" Start="1" Duration="184" Size="1920.00;1080.00" Source="File" File=".\Sources\ID.mxf">
         <Opacity>
           <Linear Frame="184" Value="100" />
           <Linear Frame="185" Value="0" />
