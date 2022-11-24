@@ -1,0 +1,60 @@
+<CinegyTitler Version="2.3">
+  <RootFolder Path="C:\Data\Dev\Git\Cinegy.Title\" />
+  <Variables>
+    <Var Name="CE_City1.Color" Type="Color" UpdateType="Instant" Value="FFEE1F23" />
+    <Var Name="CE_City1.Visible" Type="Bool" UpdateType="Instant" Value="True" />
+    <Var Name="CE_City2.Color" Type="Color" UpdateType="Instant" Value="FF0F6838" />
+    <Var Name="CE_City2.Visible" Type="Bool" UpdateType="Instant" Value="True" />
+    <Var Name="CE_City3.Color" Type="Color" UpdateType="Instant" Value="FFEE1F23" />
+    <Var Name="CE_City3.Visible" Type="Bool" UpdateType="Instant" Value="True" />
+    <Var Name="CE_City4.Color" Type="Color" UpdateType="Instant" Value="FF0F6838" />
+    <Var Name="CE_City4.Visible" Type="Bool" UpdateType="Instant" Value="True" />
+    <Var Name="CE_City5.Color" Type="Color" UpdateType="Instant" Value="FFEE1F23" />
+    <Var Name="CE_City5.Visible" Type="Bool" UpdateType="Instant" Value="True" />
+    <Var Name="CE_City6.Color" Type="Color" UpdateType="Instant" Value="FF0F6838" />
+    <Var Name="CE_City6.Visible" Type="Bool" UpdateType="Instant" Value="True" />
+    <Var Name="CNG_Bar1.Size.Y" Type="Float" UpdateType="Instant" Value="390.00" />
+    <Var Name="CNG_Bar1.Position.Y" Type="Float" UpdateType="Instant" Value="-130.00" />
+    <Var Name="CNG_Bar2.Size.Y" Type="Float" UpdateType="Instant" Value="260.00" />
+    <Var Name="CNG_Bar2.Position.Y" Type="Float" UpdateType="Instant" Value="-195.00" />
+    <Var Name="CNG_Result1.Text" Type="String" UpdateType="Instant" Value="60%" />
+    <Var Name="CNG_Result2.Text" Type="String" UpdateType="Instant" Value="40%" />
+    <Var Name="CE_CityName.Text" Type="String" UpdateType="Instant" Value="WAKANDA" />
+  </Variables>
+  <Scene Width="1920" Height="1080" Fps="25.000" Progressive="false" Aspect="16:9" Duration="75" Name="Cinegy_Elections" PlayMode="Loop" LoopStartFrame="25" LoopEndFrame="50" LoopCount="-1" BackgroundColor="FF000000">
+    <Group Name="CE_Main" Duration="75">
+      <Group Name="CE_Background" Duration="75">
+        <Plate Name="CE_Terrain" EditorFlags="8" Start="1" Duration="73" Size="1920.00;1080.00" Source="File" File=".\Election\background.png" FillMode="Unscale" />
+      </Group>
+      <Group Name="CE_Cities" EditorFlags="4" Duration="75">
+        <Plate Name="CE_CountryPlate" Start="1" Duration="73" Size="1920.00;1080.00" Source="File" File=".\Election\map.png" />
+        <Text Name="CE_CityName" Start="1" Duration="73" Size="520.00;105.00" Position="460.00;-469.00;0.00" Font="AardvarkBold;Regular;96;false;false" TextVAlign="Center" Value="${CE_CityName.Text}" />
+        <Plate Name="CE_City1" Start="1" Duration="73" Visible="${CE_City1.Visible}" Color="${CE_City1.Color}" Size="274.00;260.00" Position="115.00;224.00;0.00" Source="File" File=".\Election\1.png" FillMode="Fill" />
+        <Text Name="CE_City1_Name" Start="1" Duration="73" Size="250.00;45.00" Position="117.00;222.00;0.00" Font="Airstrip Four;Regular;37;true;false" TextVAlign="Center" Value="mena ngai" />
+        <Plate Name="CE_City2" Start="1" Duration="73" Visible="${CE_City2.Visible}" Color="${CE_City2.Color}" Size="448.00;336.00" Position="65.00;-41.00;0.00" Source="File" File=".\Election\2.png" FillMode="Fill" />
+        <Text Name="CE_City2_Name" Start="1" Duration="73" Size="250.00;45.00" Position="82.00;-33.00;0.00" Font="Airstrip Four;Regular;37;true;false" TextVAlign="Center" Value="birnin zana" />
+        <Plate Name="CE_City3" Start="1" Duration="73" Visible="${CE_City3.Visible}" Color="${CE_City3.Color}" Size="515.00;287.00" Position="180.00;-220.00;0.00" Source="File" File=".\Election\3.png" FillMode="Fill" />
+        <Text Name="CE_City3_Name" Start="1" Duration="73" Size="250.00;45.00" Position="191.00;-232.00;0.00" Font="Airstrip Four;Regular;37;true;false" TextVAlign="Center" Value="m'baku" />
+        <Plate Name="CE_City4" Start="1" Duration="73" Visible="${CE_City4.Visible}" Color="${CE_City4.Color}" Size="446.00;262.00" Position="449.00;206.00;0.00" Source="File" File=".\Election\4.png" FillMode="Fill" />
+        <Text Name="CE_City4_Name" EditorFlags="8" Start="1" Duration="73" Size="250.00;45.00" Position="430.00;197.00;0.00" Font="Airstrip Four;Regular;37;true;false" TextVAlign="Center" Value="n'jadaka" />
+        <Plate Name="CE_City5" Start="1" Duration="73" Visible="${CE_City5.Visible}" Color="${CE_City5.Color}" Size="360.00;453.00" Position="695.00;17.00;0.00" Source="File" File=".\Election\5.png" FillMode="Fill" />
+        <Text Name="CE_City5_Name" Start="1" Duration="73" Size="250.00;45.00" Position="693.00;8.00;0.00" Font="Airstrip Four;Regular;37;true;false" TextVAlign="Center" Value="m'kumbe" />
+        <Plate Name="CE_City6" Start="1" Duration="73" Visible="${CE_City6.Visible}" Color="${CE_City6.Color}" Size="428.00;399.00" Position="445.00;-79.00;0.00" Source="File" File=".\Election\6.png" FillMode="Fill" />
+        <Text Name="CE_City6_Name" EditorFlags="8" Start="1" Duration="73" Size="250.00;45.00" Position="432.00;-56.00;0.00" Font="Airstrip Four;Regular;37;true;false" TextVAlign="Center" Value="jabari" />
+      </Group>
+      <Group Name="CE_Results" EditorFlags="8" Duration="75" Position="-535.00;0.00;0.00">
+        <Text Name="Title" Start="1" Duration="73" Size="750.00;120.00" Position="0.00;425.00;0.00" Font="AardvarkBold;Regular;117;false;false" WordWrap="false" TextVAlign="Center" Value="WAKANDA" />
+        <Text Name="SubTitle" EditorFlags="8" Start="1" Duration="73" Size="750.00;150.00" Position="0.00;320.00;0.00" Font="AardvarkBold;Regular;70;false;false" WordWrap="false" Value="PRESIDENTAL&#xA;ELECTIONS" />
+        <Group Name="CE_ResultLine1" Start="1" Duration="73" Position="-144.00;-120.00;0.00">
+          <Plate Name="CNG_Bar1" Start="1" Duration="73" Color="FFEE1F23" Size="269.00;${CNG_Bar1.Size.Y}" Position="0.00;${CNG_Bar1.Position.Y};0.00" />
+        </Group>
+        <Group Name="CE_ResultLine2" Start="1" Duration="73" Position="139.00;-120.00;0.00">
+          <Plate Name="CNG_Bar2" EditorFlags="8" Start="1" Duration="73" Color="FF0F6838" Size="269.00;${CNG_Bar2.Size.Y}" Position="0.00;${CNG_Bar2.Position.Y};0.00" />
+        </Group>
+      </Group>
+      <Plate Name="FaceOff" Start="1" Duration="73" Size="1920.00;1080.00" Source="File" File=".\Election\faceoff_names.png" />
+      <Text Name="CNG_Result1" Start="1" Duration="73" Size="250.00;130.00" Position="-678.00;-405.00;0.00" Font="AardvarkBold;Regular;120;true;false" TextVAlign="Center" Value="${CNG_Result1.Text}" />
+      <Text Name="CNG_Result2" Start="1" Duration="73" Size="250.00;130.00" Position="-391.00;-405.00;0.00" Font="AardvarkBold;Regular;120;true;false" TextVAlign="Center" Value="${CNG_Result2.Text}" />
+    </Group>
+  </Scene>
+</CinegyTitler>

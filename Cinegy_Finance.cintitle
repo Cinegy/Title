@@ -1,0 +1,190 @@
+<CinegyTitler Version="2.3">
+  <RootFolder Path="C:\Data\Dev\Git\Cinegy.Title\" />
+  <Variables>
+    <Var Name="CNF_Url.Text" Type="String" UpdateType="Instant" Value="cinegy.com" />
+    <Var Name="CNF_FinanceBar.Position.Y" Type="Float" UpdateType="Instant" Value="-365.00" />
+    <Var Name="CNF_FB01_Name.Text" Type="String" UpdateType="Instant" Value="AMD" />
+    <Var Name="CNF_FB01_State.File" Type="File" UpdateType="Instant" Value=".\Finance\finance_up.png" />
+    <Var Name="CNF_FB01_Value.Text" Type="String" UpdateType="Instant" Value="76.77" />
+    <Var Name="CNF_FB01_Change.Text" Type="String" UpdateType="Instant" Value="+0.26      +0.34%" />
+    <Var Name="CNF_FB02_Name.Text" Type="String" UpdateType="Instant" Value="ADBE" />
+    <Var Name="CNF_FB02_State.File" Type="File" UpdateType="Instant" Value=".\Finance\finance_down.png" />
+    <Var Name="CNF_FB02_Value.Text" Type="String" UpdateType="Instant" Value="296.06" />
+    <Var Name="CNF_FB02_Change.Text" Type="String" UpdateType="Instant" Value="-3.44      -1.15%" />
+    <Var Name="CNF_FB03_Name.Text" Type="String" UpdateType="Instant" Value="AMZN" />
+    <Var Name="CNF_FB03_State.File" Type="File" UpdateType="Instant" Value=".\Finance\finance_up.png" />
+    <Var Name="CNF_FB03_Value.Text" Type="String" UpdateType="Instant" Value="124.66" />
+    <Var Name="CNF_FB03_Change.Text" Type="String" UpdateType="Instant" Value="+1.13      +0.91%" />
+    <Var Name="CNF_FB04_Name.Text" Type="String" UpdateType="Instant" Value="AAPL" />
+    <Var Name="CNF_FB04_State.File" Type="File" UpdateType="Instant" Value=".\Finance\finance_up.png" />
+    <Var Name="CNF_FB04_Value.Text" Type="String" UpdateType="Instant" Value="154.48" />
+    <Var Name="CNF_FB04_Change.Text" Type="String" UpdateType="Instant" Value="+3.78      +2.51%" />
+    <Var Name="CNF_FB05_Name.Text" Type="String" UpdateType="Instant" Value="BIDU" />
+    <Var Name="CNF_FB05_State.File" Type="File" UpdateType="Instant" Value=".\Finance\finance_up.png" />
+    <Var Name="CNF_FB05_Value.Text" Type="String" UpdateType="Instant" Value="126.25" />
+    <Var Name="CNF_FB05_Change.Text" Type="String" UpdateType="Instant" Value="+2.56     +2.07%" />
+    <Var Name="CNF_FB06_Name.Text" Type="String" UpdateType="Instant" Value="EBAY" />
+    <Var Name="CNF_FB06_State.File" Type="File" UpdateType="Instant" Value=".\Finance\finance_down.png" />
+    <Var Name="CNF_FB06_Value.Text" Type="String" UpdateType="Instant" Value="41.35" />
+    <Var Name="CNF_FB06_Change.Text" Type="String" UpdateType="Instant" Value="-0.65     -0.17%" />
+    <Var Name="CNF_FB07_Name.Text" Type="String" UpdateType="Instant" Value="MSFT" />
+    <Var Name="CNF_FB07_State.File" Type="File" UpdateType="Instant" Value=".\Finance\finance_down.png" />
+    <Var Name="CNF_FB07_Value.Text" Type="String" UpdateType="Instant" Value="244.52" />
+    <Var Name="CNF_FB07_Change.Text" Type="String" UpdateType="Instant" Value="-0.22      -0.09%" />
+    <Var Name="CNF_FB08_Name.Text" Type="String" UpdateType="Instant" Value="NVDA" />
+    <Var Name="CNF_FB08_State.File" Type="File" UpdateType="Instant" Value=".\Finance\finance_up.png" />
+    <Var Name="CNF_FB08_Value.Text" Type="String" UpdateType="Instant" Value="133.82" />
+    <Var Name="CNF_FB08_Change.Text" Type="String" UpdateType="Instant" Value="+1.84      1.39%" />
+    <Var Name="CNF_NewsTicker.Visible" Type="Bool" UpdateType="Instant" Value="True" />
+    <Var Name="TickerSep" Type="File" UpdateType="Instant" Value=".\Finance\separator.jpg" />
+    <Var Name="CNF_Ticker.Text" Type="String" UpdateType="Instant" Value="[b](AMD)[/b]   $76.77   ${TickerUp}    ${TickerSep}    [b](ADBE)[/b]   $296.06   ${TickerDown}    ${TickerSep}    [b](ABNB)[/b]   $118.78   ${TickerUp}    ${TickerSep}    [b](ALGN)[/b]   $244.19   ${TickerDown}    ${TickerSep}    [b](AMZN)[/b]   $124.66   ${TickerUp}    ${TickerSep}    [b](AMGN)[/b]   $230.76   ${TickerDown}    ${TickerSep}    [b](AEP)[/b]   $101.11       ${TickerSep}    [b](ADI)[/b]   $149.61   ${TickerUp}    ${TickerSep}    [b](ANSS)[/b]   $241.43   ${TickerUp}    ${TickerSep}    [b](AAPL)[/b]   $154.48   ${TickerUp}    ${TickerSep}    [b](AMAT)[/b]   $89.72   ${TickerUp}    ${TickerSep}    [b](ASML)[/b]   $471.11   ${TickerUp}    ${TickerSep}    [b](TEAM)[/b]   $241.62   ${TickerDown}    ${TickerSep}    [b](ADSK)[/b]   $196.89   ${TickerUp}    ${TickerSep}    [b](ATVI)[/b]   $75.94   ${TickerDown}    ${TickerSep}    [b](ADP)[/b]   $235.72   ${TickerUp}    ${TickerSep}    [b](AZN)[/b]   $57.99   ${TickerDown}    ${TickerSep}    [b](AVGO)[/b]   $501.84   ${TickerDown}    ${TickerSep}    [b](BIDU)[/b]   $126.25   ${TickerUp}    ${TickerSep}    [b](BIIB)[/b]   $209.26   ${TickerUp}    ${TickerSep}    [b](BMRN)[/b]   $87.7   ${TickerDown}    ${TickerSep}    [b](BKNG)[/b]   $1902.99   ${TickerUp}    ${TickerSep}    [b](CDNS)[/b]   $167.19   ${TickerUp}    ${TickerSep}    [b](CHTR)[/b]   $372.13   ${TickerDown}    ${TickerSep}    [b](CPRT)[/b]   $111.09   ${TickerUp}    ${TickerSep}    [b](CRWD)[/b]   $175.39   ${TickerUp}    ${TickerSep}    [b](CTAS)[/b]   $407.84   ${TickerUp}    ${TickerSep}    [b](CSCO)[/b]   $43.3       ${TickerSep}    [b](CMCSA)[/b]   $34.46   ${TickerDown}    ${TickerSep}    [b](COST)[/b]   $506.57   ${TickerUp}    ${TickerSep}    [b](CSX)[/b]   $29.88   ${TickerUp}    ${TickerSep}    [b](CTSH)[/b]   $63.21   ${TickerUp}    ${TickerSep}    [b](DDOG)[/b]   $93.8   ${TickerUp}    ${TickerSep}    [b](DOCU)[/b]   $56.48   ${TickerDown}    ${TickerSep}    [b](DXCM)[/b]   $87.94   ${TickerDown}    ${TickerSep}    [b](DLTR)[/b]   $142.91   ${TickerUp}    ${TickerSep}    [b](EA)[/b]   $122.93   ${TickerUp}    ${TickerSep}    [b](EBAY)[/b]   $41.35   ${TickerDown}    ${TickerSep}    [b](EXC)[/b]   $43.39   ${TickerUp}    ${TickerSep}    [b](FAST)[/b]   $48.43   ${TickerUp}    ${TickerSep}    [b](META)[/b]   $148.02   ${TickerUp}    ${TickerSep}    [b](FISV)[/b]   $103.65   ${TickerUp}    ${TickerSep}    [b](FTNT)[/b]   $50.74   ${TickerUp}    ${TickerSep}    [b](GILD)[/b]   $65.82   ${TickerUp}    ${TickerSep}    [b](GOOG)[/b]   $103.85   ${TickerUp}    ${TickerSep}    [b](GOOGL)[/b]   $103.07   ${TickerUp}    ${TickerSep}    [b](HON)[/b]   $178.63   ${TickerUp}    ${TickerSep}    [b](ILMN)[/b]   $198.81   ${TickerDown}    ${TickerSep}    [b](INTC)[/b]   $29.44   ${TickerUp}    ${TickerSep}    [b](INTU)[/b]   $423.69   ${TickerUp}    ${TickerSep}    [b](ISRG)[/b]   $202.21   ${TickerDown}    ${TickerSep}    [b](MRVL)[/b]   $46.15   ${TickerDown}    ${TickerSep}    [b](IDXX)[/b]   $339.67   ${TickerDown}    ${TickerSep}    [b](JD)[/b]   $56.82   ${TickerUp}    ${TickerSep}    [b](KDP)[/b]   $37.77   ${TickerUp}    ${TickerSep}    [b](KLAC)[/b]   $334.35   ${TickerDown}    ${TickerSep}    [b](KHC)[/b]   $34.61   ${TickerDown}    ${TickerSep}    [b](LRCX)[/b]   $409.22       ${TickerSep}    [b](LCID)[/b]   $15.94   ${TickerDown}    ${TickerSep}    [b](LULU)[/b]   $337.08   ${TickerUp}    ${TickerSep}    [b](MELI)[/b]   $933.1   ${TickerUp}    ${TickerSep}    [b](MAR)[/b]   $157.36   ${TickerUp}    ${TickerSep}    [b](MTCH)[/b]   $54.39   ${TickerDown}    ${TickerSep}    [b](MCHP)[/b]   $66.89   ${TickerUp}    ${TickerSep}    [b](MDLZ)[/b]   $60.38   ${TickerUp}    ${TickerSep}    [b](MRNA)[/b]   $127.9   ${TickerDown}    ${TickerSep}    [b](MNST)[/b]   $87.85   ${TickerUp}    ${TickerSep}    [b](MSFT)[/b]   $244.52   ${TickerDown}    ${TickerSep}    [b](MU)[/b]   $52.1   ${TickerDown}    ${TickerSep}    [b](NFLX)[/b]   $243.63   ${TickerUp}    ${TickerSep}    [b](NTES)[/b]   $82.8   ${TickerUp}    ${TickerSep}    [b](NVDA)[/b]   $133.82   ${TickerUp}    ${TickerSep}    [b](NXPI)[/b]   $163.1   ${TickerUp}    ${TickerSep}    [b](OKTA)[/b]   $58.91   ${TickerDown}    ${TickerSep}    [b](ODFL)[/b]   $258.28   ${TickerUp}    ${TickerSep}    [b](ORLY)[/b]   $695.28   ${TickerUp}    ${TickerSep}    [b](PCAR)[/b]   $87.29   ${TickerUp}    ${TickerSep}    [b](PANW)[/b]   $175.35   ${TickerUp}    ${TickerSep}    [b](PAYX)[/b]   $121.49   ${TickerUp}    ${TickerSep}    [b](PDD)[/b]   $65.79   ${TickerUp}    ${TickerSep}    [b](PYPL)[/b]   $95.03   ${TickerUp}    ${TickerSep}    [b](PEP)[/b]   $168.73   ${TickerUp}    ${TickerSep}    [b](QCOM)[/b]   $126.65   ${TickerUp}    ${TickerSep}    [b](REGN)[/b]   $715.34   ${TickerUp}    ${TickerSep}    [b](ROST)[/b]   $90.74   ${TickerUp}    ${TickerSep}    [b](SIRI)[/b]   $6.02   ${TickerUp}    ${TickerSep}    [b](SGEN)[/b]   $139.42   ${TickerDown}    ${TickerSep}    [b](SPLK)[/b]   $91.52   ${TickerUp}    ${TickerSep}    [b](SWKS)[/b]   $99.84   ${TickerDown}    ${TickerSep}    [b](SBUX)[/b]   $92.14   ${TickerUp}    ${TickerSep}    [b](SNPS)[/b]   $317.32   ${TickerUp}    ${TickerSep}    [b](TSLA)[/b]   $309.07   ${TickerUp}    ${TickerSep}    [b](TXN)[/b]   $166.25   ${TickerUp}    ${TickerSep}    [b](TMUS)[/b]   $140.71   ${TickerUp}    ${TickerSep}    [b](VRSN)[/b]   $176.27   ${TickerUp}    ${TickerSep}    [b](VRSK)[/b]   $184.25   ${TickerDown}    ${TickerSep}    [b](VRTX)[/b]   $285.14   ${TickerDown}    ${TickerSep}    [b](WBA)[/b]   $34.15   ${TickerDown}    ${TickerSep}    [b](WDAY)[/b]   $155   ${TickerUp}    ${TickerSep}    [b](XEL)[/b]   $74.53   ${TickerUp}    ${TickerSep}    [b](ZM)[/b]   $78.32   ${TickerDown}    ${TickerSep}    [b](ZS)[/b]   $174.57   ${TickerUp}    ${TickerSep}    " />
+    <Var Name="TickerUp" Type="File" UpdateType="Instant" Value=".\Finance\up.png" />
+    <Var Name="TickerDown" Type="File" UpdateType="Instant" Value=".\Finance\down.png" />
+  </Variables>
+  <Scene Width="1920" Height="1080" Fps="25.000" Progressive="false" Aspect="16:9" Duration="75" Name="Cinegy_Finance" EditorFlags="12" PlayMode="Loop" LoopStartFrame="25" LoopEndFrame="50" LoopCount="-1" BackgroundColor="FF000000">
+    <Group Name="CNF_Left_TitleBox" Duration="75" Position="-762.00;-410.00;0.00">
+      <Plate Name="CNF_TitleBox" Start="1" Duration="73" Size="284.00;168.00" Source="File" File=".\Finance\finance_title_box.png" />
+      <Plate Name="CNF_Logo" EditorFlags="8" Start="1" Duration="73" Size="270.00;55.00" Position="5.00;52.00;0.00" Source="File" File=".\Finance\CinegyLogo_Black.png" />
+      <Clock Name="CNF_Time" EditorFlags="8" Start="1" Duration="73" Size="270.00;40.00" Position="0.00;-10.00;0.00" Font="Arial;Regular;40;true;false" WordWrap="false" TimeFormat="hh:mm" TimeOffset="00:00:00.000">
+        <Outline Color="FF1D1D1D" Width="2.00" />
+      </Clock>
+      <Text Name="CNF_Url" Start="1" Duration="73" Size="280.00;30.00" Position="0.00;-62.00;0.00" Font="Arial;Regular;30;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_Url.Text}">
+        <TextAutoFit MinSize="25" PreferredSize="30" MinSpacing="-3.00;-3.00;-13.00" />
+      </Text>
+    </Group>
+    <Group Name="CNF_FinanceBar" Duration="75" Position="0.00;${CNF_FinanceBar.Position.Y};0.00">
+      <Group Name="CNF_FinanceBox_01" EditorFlags="8" Start="1" Duration="73" Position="-520.00;0.00;0.00">
+        <Plate Name="CNF_FB01_Background" EditorFlags="8" Start="1" Duration="73" Size="188.00;157.00" Source="File" File=".\Finance\finance_box.png" FillMode="Fill" />
+        <Text Name="CNF_FB01_Name" Start="1" Duration="73" Color="FF000000" Size="185.00;40.00" Position="0.00;56.00;0.00" Font="Arial;Regular;38;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB01_Name.Text}">
+          <TextAutoFit MinSize="25" PreferredSize="38" MinSpacing="-4.00;-4.00;-17.00" />
+          <Outline Color="FFFFFFFF" Width="2.00" />
+        </Text>
+        <Plate Name="CNF_FB01_State" Start="1" Duration="73" Size="188.00;114.00" Position="0.00;-22.00;0.00" Source="File" File="${CNF_FB01_State.File}" />
+        <Text Name="CNF_FB01_Value" Start="1" Duration="73" Size="150.00;45.00" Position="-15.00;0.00;0.00" Font="Arial;Regular;45;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB01_Value.Text}">
+          <Outline Width="2.00" />
+          <TextAutoFit MinSize="30" PreferredSize="45" MinSpacing="-5.00;-5.00;-20.00" />
+        </Text>
+        <Text Name="CNF_FB01_Change" EditorFlags="8" Start="1" Duration="73" Size="165.00;45.00" Position="-7.00;-55.00;0.00" Font="Arial;Regular;26;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB01_Change.Text}">
+          <Outline Width="2.00" />
+          <TextAutoFit MinSize="20" PreferredSize="26" MinSpacing="-5.00;-5.00;-20.00" />
+        </Text>
+      </Group>
+      <Group Name="CNF_FinanceBox_02" EditorFlags="8" Start="1" Duration="73" Position="-329.00;0.00;0.00">
+        <Plate Name="CNF_FB02_Background" EditorFlags="8" Start="1" Duration="73" Size="188.00;157.00" Source="File" File=".\Finance\finance_box.png" FillMode="Fill" />
+        <Text Name="CNF_FB02_Name" Start="1" Duration="73" Color="FF000000" Size="185.00;40.00" Position="0.00;56.00;0.00" Font="Arial;Regular;38;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB02_Name.Text}">
+          <TextAutoFit MinSize="25" PreferredSize="38" MinSpacing="-4.00;-4.00;-17.00" />
+          <Outline Color="FFFFFFFF" Width="2.00" />
+        </Text>
+        <Plate Name="CNF_FB02_State" Start="1" Duration="73" Size="188.00;114.00" Position="0.00;-22.00;0.00" Source="File" File="${CNF_FB02_State.File}" />
+        <Text Name="CNF_FB02_Value" Start="1" Duration="73" Size="150.00;45.00" Position="-15.00;0.00;0.00" Font="Arial;Regular;45;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB02_Value.Text}">
+          <Outline Width="2.00" />
+          <TextAutoFit MinSize="30" PreferredSize="45" MinSpacing="-5.00;-5.00;-20.00" />
+        </Text>
+        <Text Name="CNF_FB02_Change" EditorFlags="8" Start="1" Duration="73" Size="165.00;45.00" Position="-7.00;-55.00;0.00" Font="Arial;Regular;26;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB02_Change.Text}">
+          <Outline Width="2.00" />
+          <TextAutoFit MinSize="20" PreferredSize="26" MinSpacing="-5.00;-5.00;-20.00" />
+        </Text>
+      </Group>
+      <Group Name="CNF_FinanceBox_03" EditorFlags="8" Start="1" Duration="73" Position="-138.00;0.00;0.00">
+        <Plate Name="CNF_FB03_Background" EditorFlags="8" Start="1" Duration="73" Size="188.00;157.00" Source="File" File=".\Finance\finance_box.png" FillMode="Fill" />
+        <Text Name="CNF_FB03_Name" Start="1" Duration="73" Color="FF000000" Size="185.00;40.00" Position="0.00;56.00;0.00" Font="Arial;Regular;38;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB03_Name.Text}">
+          <TextAutoFit MinSize="25" PreferredSize="38" MinSpacing="-4.00;-4.00;-17.00" />
+          <Outline Color="FFFFFFFF" Width="2.00" />
+        </Text>
+        <Plate Name="CNF_FB03_State" Start="1" Duration="73" Size="188.00;114.00" Position="0.00;-22.00;0.00" Source="File" File="${CNF_FB03_State.File}" />
+        <Text Name="CNF_FB03_Value" Start="1" Duration="73" Size="150.00;45.00" Position="-15.00;0.00;0.00" Font="Arial;Regular;45;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB03_Value.Text}">
+          <Outline Width="2.00" />
+          <TextAutoFit MinSize="30" PreferredSize="45" MinSpacing="-5.00;-5.00;-20.00" />
+        </Text>
+        <Text Name="CNF_FB03_Change" EditorFlags="8" Start="1" Duration="73" Size="165.00;45.00" Position="-7.00;-55.00;0.00" Font="Arial;Regular;26;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB03_Change.Text}">
+          <Outline Width="2.00" />
+          <TextAutoFit MinSize="20" PreferredSize="26" MinSpacing="-5.00;-5.00;-20.00" />
+        </Text>
+      </Group>
+      <Group Name="CNF_FinanceBox_04" EditorFlags="8" Start="1" Duration="73" Position="53.00;0.00;0.00">
+        <Plate Name="CNF_FB04_Background" EditorFlags="8" Start="1" Duration="73" Size="188.00;157.00" Source="File" File=".\Finance\finance_box.png" FillMode="Fill" />
+        <Text Name="CNF_FB04_Name" Start="1" Duration="73" Color="FF000000" Size="185.00;40.00" Position="0.00;56.00;0.00" Font="Arial;Regular;38;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB04_Name.Text}">
+          <TextAutoFit MinSize="25" PreferredSize="38" MinSpacing="-4.00;-4.00;-17.00" />
+          <Outline Color="FFFFFFFF" Width="2.00" />
+        </Text>
+        <Plate Name="CNF_FB04_State" Start="1" Duration="73" Size="188.00;114.00" Position="0.00;-22.00;0.00" Source="File" File="${CNF_FB04_State.File}" />
+        <Text Name="CNF_FB04_Value" Start="1" Duration="73" Size="150.00;45.00" Position="-15.00;0.00;0.00" Font="Arial;Regular;45;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB04_Value.Text}">
+          <Outline Width="2.00" />
+          <TextAutoFit MinSize="30" PreferredSize="45" MinSpacing="-5.00;-5.00;-20.00" />
+        </Text>
+        <Text Name="CNF_FB04_Change" EditorFlags="8" Start="1" Duration="73" Size="165.00;45.00" Position="-7.00;-55.00;0.00" Font="Arial;Regular;26;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB04_Change.Text}">
+          <Outline Width="2.00" />
+          <TextAutoFit MinSize="20" PreferredSize="26" MinSpacing="-5.00;-5.00;-20.00" />
+        </Text>
+      </Group>
+      <Group Name="CNF_FinanceBox_05" EditorFlags="8" Start="1" Duration="73" Position="244.00;0.00;0.00">
+        <Plate Name="CNF_FB05_Background" EditorFlags="8" Start="1" Duration="73" Size="188.00;157.00" Source="File" File=".\Finance\finance_box.png" FillMode="Fill" />
+        <Text Name="CNF_FB05_Name" Start="1" Duration="73" Color="FF000000" Size="185.00;40.00" Position="0.00;56.00;0.00" Font="Arial;Regular;38;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB05_Name.Text}">
+          <TextAutoFit MinSize="25" PreferredSize="38" MinSpacing="-4.00;-4.00;-17.00" />
+          <Outline Color="FFFFFFFF" Width="2.00" />
+        </Text>
+        <Plate Name="CNF_FB05_State" Start="1" Duration="73" Size="188.00;114.00" Position="0.00;-22.00;0.00" Source="File" File="${CNF_FB05_State.File}" />
+        <Text Name="CNF_FB05_Value" Start="1" Duration="73" Size="150.00;45.00" Position="-15.00;0.00;0.00" Font="Arial;Regular;45;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB05_Value.Text}">
+          <Outline Width="2.00" />
+          <TextAutoFit MinSize="30" PreferredSize="45" MinSpacing="-5.00;-5.00;-20.00" />
+        </Text>
+        <Text Name="CNF_FB05_Change" EditorFlags="8" Start="1" Duration="73" Size="165.00;45.00" Position="-7.00;-55.00;0.00" Font="Arial;Regular;26;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB05_Change.Text}">
+          <Outline Width="2.00" />
+          <TextAutoFit MinSize="20" PreferredSize="26" MinSpacing="-5.00;-5.00;-20.00" />
+        </Text>
+      </Group>
+      <Group Name="CNF_FinanceBox_06" EditorFlags="8" Start="1" Duration="73" Position="435.00;0.00;0.00">
+        <Plate Name="CNF_FB06_Background" EditorFlags="8" Start="1" Duration="73" Size="188.00;157.00" Source="File" File=".\Finance\finance_box.png" FillMode="Fill" />
+        <Text Name="CNF_FB06_Name" Start="1" Duration="73" Color="FF000000" Size="185.00;40.00" Position="0.00;56.00;0.00" Font="Arial;Regular;38;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB06_Name.Text}">
+          <TextAutoFit MinSize="25" PreferredSize="38" MinSpacing="-4.00;-4.00;-17.00" />
+          <Outline Color="FFFFFFFF" Width="2.00" />
+        </Text>
+        <Plate Name="CNF_FB06_State" Start="1" Duration="73" Size="188.00;114.00" Position="0.00;-22.00;0.00" Source="File" File="${CNF_FB06_State.File}" />
+        <Text Name="CNF_FB06_Value" Start="1" Duration="73" Size="150.00;45.00" Position="-15.00;0.00;0.00" Font="Arial;Regular;45;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB06_Value.Text}">
+          <Outline Width="2.00" />
+          <TextAutoFit MinSize="30" PreferredSize="45" MinSpacing="-5.00;-5.00;-20.00" />
+        </Text>
+        <Text Name="CNF_FB06_Change" EditorFlags="8" Start="1" Duration="73" Size="165.00;45.00" Position="-7.00;-55.00;0.00" Font="Arial;Regular;26;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB06_Change.Text}">
+          <Outline Width="2.00" />
+          <TextAutoFit MinSize="20" PreferredSize="26" MinSpacing="-5.00;-5.00;-20.00" />
+        </Text>
+      </Group>
+      <Group Name="CNF_FinanceBox_07" EditorFlags="8" Start="1" Duration="73" Position="626.00;0.00;0.00">
+        <Plate Name="CNF_FB07_Background" EditorFlags="8" Start="1" Duration="73" Size="188.00;157.00" Source="File" File=".\Finance\finance_box.png" FillMode="Fill" />
+        <Text Name="CNF_FB07_Name" Start="1" Duration="73" Color="FF000000" Size="185.00;40.00" Position="0.00;56.00;0.00" Font="Arial;Regular;38;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB07_Name.Text}">
+          <TextAutoFit MinSize="25" PreferredSize="38" MinSpacing="-4.00;-4.00;-17.00" />
+          <Outline Color="FFFFFFFF" Width="2.00" />
+        </Text>
+        <Plate Name="CNF_FB07_State" Start="1" Duration="73" Size="188.00;114.00" Position="0.00;-22.00;0.00" Source="File" File="${CNF_FB07_State.File}" />
+        <Text Name="CNF_FB07_Value" Start="1" Duration="73" Size="150.00;45.00" Position="-15.00;0.00;0.00" Font="Arial;Regular;45;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB07_Value.Text}">
+          <Outline Width="2.00" />
+          <TextAutoFit MinSize="30" PreferredSize="45" MinSpacing="-5.00;-5.00;-20.00" />
+        </Text>
+        <Text Name="CNF_FB07_Change" EditorFlags="8" Start="1" Duration="73" Size="165.00;45.00" Position="-7.00;-55.00;0.00" Font="Arial;Regular;26;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB07_Change.Text}">
+          <Outline Width="2.00" />
+          <TextAutoFit MinSize="20" PreferredSize="26" MinSpacing="-5.00;-5.00;-20.00" />
+        </Text>
+      </Group>
+      <Group Name="CNF_FinanceBox_08" EditorFlags="8" Start="1" Duration="73" Position="817.00;0.00;0.00">
+        <Plate Name="CNF_FB08_Background" EditorFlags="8" Start="1" Duration="73" Size="188.00;157.00" Source="File" File=".\Finance\finance_box.png" FillMode="Fill" />
+        <Text Name="CNF_FB08_Name" Start="1" Duration="73" Color="FF000000" Size="185.00;40.00" Position="0.00;56.00;0.00" Font="Arial;Regular;38;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB08_Name.Text}">
+          <TextAutoFit MinSize="25" PreferredSize="38" MinSpacing="-4.00;-4.00;-17.00" />
+          <Outline Color="FFFFFFFF" Width="2.00" />
+        </Text>
+        <Plate Name="CNF_FB08_State" Start="1" Duration="73" Size="188.00;114.00" Position="0.00;-22.00;0.00" Source="File" File="${CNF_FB08_State.File}" />
+        <Text Name="CNF_FB08_Value" Start="1" Duration="73" Size="150.00;45.00" Position="-15.00;0.00;0.00" Font="Arial;Regular;45;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB08_Value.Text}">
+          <Outline Width="2.00" />
+          <TextAutoFit MinSize="30" PreferredSize="45" MinSpacing="-5.00;-5.00;-20.00" />
+        </Text>
+        <Text Name="CNF_FB08_Change" EditorFlags="8" Start="1" Duration="73" Size="165.00;45.00" Position="-7.00;-55.00;0.00" Font="Arial;Regular;26;true;false" WordWrap="false" TextVAlign="Center" Value="${CNF_FB08_Change.Text}">
+          <Outline Width="2.00" />
+          <TextAutoFit MinSize="20" PreferredSize="26" MinSpacing="-5.00;-5.00;-20.00" />
+        </Text>
+      </Group>
+    </Group>
+    <Group Name="CNF_NewsTicker" Duration="75" Visible="${CNF_NewsTicker.Visible}" Position="149.00;-473.50;0.00">
+      <Plate Name="CNF_TickerBar" EditorFlags="8" Start="1" Duration="73" Size="1538.00;41.00" Source="File" File=".\Finance\finance_ticker.png" />
+      <Marquee Name="CNF_Ticker" Start="1" Duration="73" Color="FF000000" Size="1511.00;41.00" Position="-13.50;0.00;0.00" Font="Arial;Regular;30;false;false" GraphicsSize="Font" Value="${CNF_Ticker.Text}" PlayMode="Loop" />
+    </Group>
+  </Scene>
+</CinegyTitler>
