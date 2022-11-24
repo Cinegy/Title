@@ -1,5 +1,5 @@
-<CinegyTitler Version="2.2">
-  <RootFolder Path="\\munich.cinegy.local\global\CompanyFiles\ProductManagement\Titler-Reference-Scenes\Generic Templates For Customers\PurpleBlue\01_Lower3rd\" />
+<CinegyTitler Version="2.3">
+  <RootFolder Path="C:\Data\Dev\Git\Cinegy.Title\PurpleBlue\01_Lower3rd\" />
   <Variables>
     <Var Name="TopText.Text" Type="String" UpdateType="Instant" Value="NEWS HEADLINE" />
     <Var Name="BottomText.Text" Type="String" UpdateType="Instant" Value="AND HERE ARE THE DETAILS TO THIS NEWS AND MANY MANY MORE ON THE ACTUAL STORY" />

@@ -1,5 +1,5 @@
-<CinegyTitler Version="2.2">
-  <RootFolder Path="\\munich.cinegy.local\global\CompanyFiles\ProductManagement\Titler-Reference-Scenes\Generic Templates For Customers\PurpleBlue\06_Emergency\" />
+<CinegyTitler Version="2.3">
+  <RootFolder Path="C:\Data\Dev\Git\Cinegy.Title\PurpleBlue\06_Emergency\" />
   <Variables>
     <Var Name="TopText.Text" Type="String" UpdateType="Instant" Value="WE ARE HAVING&#xA;TECHNICAL DIFFICULTIES" />
     <Var Name="BottomText.Text" Type="String" UpdateType="Instant" Value="PLEASE STANDBY" />

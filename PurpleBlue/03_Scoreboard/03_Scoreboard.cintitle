@@ -1,5 +1,5 @@
-<CinegyTitler Version="2.2">
-  <RootFolder Path="\\munich.cinegy.local\global\CompanyFiles\ProductManagement\Titler-Reference-Scenes\Generic Templates For Customers\PurpleBlue\03_Scoreboard\" />
+<CinegyTitler Version="2.3">
+  <RootFolder Path="C:\Data\Dev\Git\Cinegy.Title\PurpleBlue\03_Scoreboard\" />
   <Variables>
     <Var Name="Team1Name.Text" Type="String" UpdateType="Instant" Value="TEAM 1" />
     <Var Name="Team2Name.Text" Type="String" UpdateType="Instant" Value="TEAM 2" />

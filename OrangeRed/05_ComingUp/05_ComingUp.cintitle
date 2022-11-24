@@ -1,5 +1,5 @@
-<CinegyTitler Version="2.2">
-  <RootFolder Path="\\munich.cinegy.local\global\CompanyFiles\ProductManagement\Titler-Reference-Scenes\Generic Templates For Customers\OrangeRed\05_ComingUp\" />
+<CinegyTitler Version="2.3">
+  <RootFolder Path="C:\Data\Dev\Git\Cinegy.Title\OrangeRed\05_ComingUp\" />
   <Variables>
     <Var Name="TitleText.Text" Type="String" UpdateType="Instant" Value="COMING UP" />
     <Var Name="Line1.Visible" Type="Bool" UpdateType="Instant" Value="True" />
@@ -12,13 +12,13 @@
     <Var Name="Line3Time.Text" Type="String" UpdateType="Instant" Value="17:00" />
     <Var Name="Line3Text.Text" Type="String" UpdateType="Instant" Value="MOVIE" />
   </Variables>
-  <Scene Width="1920" Height="1080" Fps="25.000" Progressive="false" Aspect="16:9" Duration="49" Name="ComingUp" EditorFlags="4" PlayMode="Loop" LoopStartFrame="35" LoopEndFrame="40" LoopCount="-1" BackgroundColor="FF000000">
-    <Group Name="Scene" EditorFlags="8" Start="1" Duration="48">
+  <Scene Width="1920" Height="1080" Fps="25.000" Progressive="false" Aspect="16:9" Duration="49" Name="ComingUp" PlayMode="Loop" LoopStartFrame="35" LoopEndFrame="40" LoopCount="-1" BackgroundColor="FF000000">
+    <Group Name="Scene" Start="1" Duration="48">
       <Opacity>
         <Linear Frame="42" Value="100" />
         <Linear Frame="47" Value="0" />
       </Opacity>
-      <Group Name="Background" EditorFlags="8" Start="1" Duration="48">
+      <Group Name="Background" Start="1" Duration="48">
         <Plate Name="BackgroundPlate" Start="1" Duration="48" Size="1920.00;1080.00" Source="File" File=".\_Assets\bg.png" FillMode="Fill">
           <Opacity>
             <Linear Frame="2" Value="0" />
@@ -44,7 +44,7 @@
           </Position>
           <TextAutoFit MinSize="4" PreferredSize="180" MinSpacing="-19.00;-19.00;-79.00" />
         </Text>
-        <Group Name="BackgroundLightGroup" EditorFlags="8" Start="1" Duration="48" Position="-1600.00;0.00;0.00" Rotation="0.00;0.00;147.00">
+        <Group Name="BackgroundLightGroup" EditorFlags="12" Start="1" Duration="48" Position="-1600.00;0.00;0.00" Rotation="0.00;0.00;147.00">
           <Position>
             <X>
               <Linear Frame="6" Value="-1750.00" />

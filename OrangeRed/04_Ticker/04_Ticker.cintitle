@@ -1,5 +1,5 @@
-<CinegyTitler Version="2.2">
-  <RootFolder Path="\\munich.cinegy.local\global\CompanyFiles\ProductManagement\Titler-Reference-Scenes\Generic Templates For Customers\OrangeRed\04_Ticker\" />
+<CinegyTitler Version="2.3">
+  <RootFolder Path="C:\Data\Dev\Git\Cinegy.Title\OrangeRed\04_Ticker\" />
   <Variables>
     <Var Name="TitlerHeaderText.Text" Type="String" UpdateType="Instant" Value="News Header" />
     <Var Name="TickerText.Text" Type="String" UpdateType="Instant" Value="Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text " />

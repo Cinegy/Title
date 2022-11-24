@@ -1,17 +1,17 @@
-<CinegyTitler Version="2.2">
-  <RootFolder Path="\\munich.cinegy.local\global\CompanyFiles\ProductManagement\Titler-Reference-Scenes\Generic Templates For Customers\OrangeRed\01_Lower3rd\" />
+<CinegyTitler Version="2.3">
+  <RootFolder Path="C:\Data\Dev\Git\Cinegy.Title\OrangeRed\01_Lower3rd\" />
   <Variables>
     <Var Name="TopText.Text" Type="String" UpdateType="Instant" Value="NEWS HEADLINE" />
     <Var Name="BottomText.Text" Type="String" UpdateType="Instant" Value="AND HERE ARE THE DETAILS TO THIS NEWS AND MANY MANY MORE ON THE ACTUAL STORY" />
   </Variables>
-  <Scene Width="1920" Height="1080" Fps="25.000" Progressive="false" Aspect="16:9" Duration="49" Name="Lower3rd" PlayMode="Loop" LoopStartFrame="25" LoopEndFrame="30" LoopCount="-1" BackgroundColor="FF000000">
+  <Scene Width="1920" Height="1080" Fps="25.000" Progressive="false" Aspect="16:9" Duration="49" Name="Lower3rd" EditorFlags="4" PlayMode="Loop" LoopStartFrame="25" LoopEndFrame="30" LoopCount="-1" BackgroundColor="FF000000">
     <Group Name="Scene" Start="1" Duration="48">
       <Opacity>
         <Linear Frame="35" Value="100" />
         <Linear Frame="40" Value="0" />
       </Opacity>
       <Group Name="BottomOrangeBar" EditorFlags="8" Start="1" Duration="48" Position="-417.00;-429.00;0.00">
-        <Plate Name="BottomOrangePlate" EditorFlags="12" Start="1" Duration="48" Size="892.00;0.86" Position="0.00;-55.93;0.00" Source="File" File=".\_Assets\lowr3rd.png" FillMode="Fill">
+        <Plate Name="BottomOrangePlate" EditorFlags="8" Start="1" Duration="48" Size="892.00;0.86" Position="0.00;-55.93;0.00" Source="File" File=".\_Assets\lowr3rd.png" FillMode="Fill">
           <Size>
             <Y>
               <Linear Frame="6" Value="0.00" />

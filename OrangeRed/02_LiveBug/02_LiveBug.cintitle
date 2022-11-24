@@ -1,5 +1,5 @@
-<CinegyTitler Version="2.2">
-  <RootFolder Path="\\munich.cinegy.local\global\CompanyFiles\ProductManagement\Titler-Reference-Scenes\Generic Templates For Customers\OrangeRed\02_LiveBug\" />
+<CinegyTitler Version="2.3">
+  <RootFolder Path="C:\Data\Dev\Git\Cinegy.Title\OrangeRed\02_LiveBug\" />
   <Variables>
     <Var Name="LeftBoxText.Text" Type="String" UpdateType="Instant" Value="LIVE" />
     <Var Name="RightBoxText.Text" Type="String" UpdateType="Instant" Value="EDINBURGH" />

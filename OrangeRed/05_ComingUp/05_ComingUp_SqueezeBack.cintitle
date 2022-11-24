@@ -1,5 +1,5 @@
-<CinegyTitler Version="2.2">
-  <RootFolder Path="\\munich.cinegy.local\global\CompanyFiles\ProductManagement\Titler-Reference-Scenes\Generic Templates For Customers\OrangeRed\05_ComingUp\" />
+<CinegyTitler Version="2.3">
+  <RootFolder Path="C:\Data\Dev\Git\Cinegy.Title\OrangeRed\05_ComingUp\" />
   <Variables>
     <Var Name="TitleText.Text" Type="String" UpdateType="Instant" Value="COMING UP" />
     <Var Name="Line1.Visible" Type="Bool" UpdateType="Instant" Value="True" />
