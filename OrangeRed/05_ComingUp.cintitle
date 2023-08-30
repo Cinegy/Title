@@ -1,0 +1,228 @@
+<CinegyTitler Version="2.4">
+  <RootFolder Path="\\munich.cinegy.local\global\CompanyFiles\ProductManagement\Titler-Reference-Scenes\Generic Templates For Customers\OrangeRed\" />
+  <Variables>
+    <Var Name="05_TitleText.Text" Type="String" UpdateType="Instant" Value="COMING UP" />
+    <Var Name="05_Line1.Visible" Type="Bool" UpdateType="Instant" Value="True" />
+    <Var Name="05_Line1Time.Text" Type="String" UpdateType="Instant" Value="09:10" />
+    <Var Name="05_Line1Text.Text" Type="String" UpdateType="Instant" Value="NEWS" />
+    <Var Name="05_Line2.Visible" Type="Bool" UpdateType="Instant" Value="True" />
+    <Var Name="05_Line2Time.Text" Type="String" UpdateType="Instant" Value="14:00" />
+    <Var Name="05_Line2Text.Text" Type="String" UpdateType="Instant" Value="FOOTBALL" />
+    <Var Name="05_Line3.Visible" Type="Bool" UpdateType="Instant" Value="True" />
+    <Var Name="05_Line3Time.Text" Type="String" UpdateType="Instant" Value="17:00" />
+    <Var Name="05_Line3Text.Text" Type="String" UpdateType="Instant" Value="MOVIE" />
+  </Variables>
+  <Scene Width="1920" Height="1080" Fps="25.000" Progressive="false" Aspect="16:9" Duration="49" Name="ComingUp" EditorFlags="4" PlayMode="Loop" LoopStartFrame="35" LoopEndFrame="40" LoopCount="-1">
+    <Group Name="Scene" Start="1" Duration="48">
+      <Opacity>
+        <Linear Frame="42" Value="100" />
+        <Linear Frame="47" Value="0" />
+      </Opacity>
+      <Group Name="Background" Start="1" Duration="48">
+        <Plate Name="BackgroundPlate" Start="1" Duration="48" Size="1920.00;1080.00" Source="File" File=".\_Assets\bg.png" FillMode="Fill">
+          <Opacity>
+            <Linear Frame="2" Value="0" />
+            <Linear Frame="10" Value="100" />
+          </Opacity>
+        </Plate>
+        <Plate Name="BackgroundGradient" Start="1" Duration="48" Opacity="25" Size="1920.00;1080.00" Source="File" File=".\_Assets\gradient_back.png" FillMode="Fill">
+          <Opacity>
+            <Linear Frame="14" Value="0" />
+            <Linear Frame="20" Value="25" />
+          </Opacity>
+        </Plate>
+        <Text Name="TitleText" Start="1" Duration="48" Opacity="0" Size="1300.00;250.00" Position="-230.00;208.00;0.00" Font="Century Gothic;Regular;180;true;false" WordWrap="false" TextVAlign="Center" Value="${05_TitleText.Text}">
+          <Opacity>
+            <Linear Frame="10" Value="0" />
+            <Linear Frame="12" Value="100" />
+          </Opacity>
+          <Position>
+            <Y>
+              <Linear Frame="11" Value="235.00" />
+              <Linear Frame="12" Value="208.00" />
+            </Y>
+          </Position>
+          <TextAutoFit MinSize="4" PreferredSize="180" MinSpacing="-19.00;-19.00;-79.00" />
+        </Text>
+        <Group Name="BackgroundLightGroup" EditorFlags="8" Start="1" Duration="48" Position="-1600.00;0.00;0.00" Rotation="0.00;0.00;147.00">
+          <Position>
+            <X>
+              <Linear Frame="6" Value="-1750.00" />
+              <Linear Frame="7" Value="-1225.00" />
+              <Linear Frame="8" Value="-870.00" />
+              <Linear Frame="9" Value="-520.00" />
+              <Linear Frame="10" Value="-160.00" />
+              <Linear Frame="11" Value="195.00" />
+              <Linear Frame="12" Value="545.00" />
+              <Linear Frame="13" Value="905.00" />
+              <Linear Frame="14" Value="1259.00" />
+              <Linear Frame="15" Value="1750.00" />
+            </X>
+          </Position>
+          <Plate Name="BackgroundLightBoxBig" Start="1" Duration="48" Opacity="20" Size="440.00;1610.00" />
+          <Plate Name="BackgroundLightBoxSmall" Start="1" Duration="48" Opacity="35" Size="310.00;1610.00" />
+        </Group>
+      </Group>
+      <Group Name="Line1" EditorFlags="8" Start="5" Duration="44" Visible="${05_Line1.Visible}" Position="1035.00;-29.00;0.00">
+        <Position>
+          <X>
+            <Linear Frame="9" Value="1660.00" />
+            <Linear Frame="10" Value="1457.00" />
+            <Linear Frame="11" Value="1242.00" />
+            <Linear Frame="12" Value="1035.00" />
+            <Linear Frame="13" Value="820.00" />
+            <Linear Frame="14" Value="610.00" />
+            <Linear Frame="15" Value="401.00" />
+          </X>
+        </Position>
+        <Plate Name="Line1TextBackgroundBar" Start="5" Duration="44" Color="FFD0D0D0" Size="1381.00;106.00" Source="File" File=".\_Assets\side_bg.png" FillMode="Fill" />
+        <Text Name="Line1Time" Start="5" Duration="44" Size="380.00;130.00" Position="-885.00;0.00;0.00" Font="Century Gothic;Regular;140;true;false" WordWrap="false" TextVAlign="Center" Value="${05_Line1Time.Text}">
+          <Opacity>
+            <Linear Frame="17" Value="0" />
+            <Linear Frame="21" Value="100" />
+          </Opacity>
+          <TextAutoFit MinSize="110" PreferredSize="140" MinSpacing="-15.00;-15.00;-62.00" />
+        </Text>
+        <Plate Name="Line1LightMask" Start="5" Duration="44" Size="1381.00;106.00">
+          <Mask />
+        </Plate>
+        <Group Name="Line1LightGroup" Start="5" Duration="44" Position="-124.00;0.00;0.00" Rotation="0.00;0.00;-123.00">
+          <Position>
+            <X>
+              <Linear Frame="12" Value="50.00" />
+              <Linear Frame="13" Value="60.00" />
+              <Linear Frame="14" Value="-124.00" />
+              <Linear Frame="15" Value="-309.00" />
+              <Linear Frame="16" Value="-495.00" />
+              <Linear Frame="17" Value="-678.00" />
+              <Linear Frame="18" Value="-850.00" />
+            </X>
+          </Position>
+          <Plate Name="Line1LightPlateBig" Start="5" Duration="44" Opacity="25" Size="210.00;136.00" />
+          <Plate Name="Line1LightPlateSmall" Start="5" Duration="44" Opacity="40" Size="210.00;95.00" />
+        </Group>
+        <Text Name="Line1Text" Start="5" Duration="44" Size="1150.00;100.00" Position="-36.45;0.00;0.00" Font="Century Gothic;Regular;65;true;false" Color="FF000000" WordWrap="false" TextHAlign="Left" TextVAlign="Center" Value="${05_Line1Text.Text}">
+          <Opacity>
+            <Linear Frame="14" Value="0" />
+            <Linear Frame="15" Value="50" />
+            <Linear Frame="18" Value="100" />
+          </Opacity>
+          <Position>
+            <X>
+              <Linear Frame="15" Value="45.00" />
+              <Linear Frame="18" Value="-15.00" />
+              <Linear Frame="24" Value="-50.00" />
+            </X>
+          </Position>
+          <TextAutoFit MinSize="55" PreferredSize="65" MinSpacing="-7.00;-7.00;-28.00" />
+        </Text>
+      </Group>
+      <Group Name="Line2" EditorFlags="8" Start="7" Duration="42" Visible="${05_Line2.Visible}" Position="401.00;-199.00;0.00">
+        <Position>
+          <X>
+            <Linear Frame="11" Value="1660.00" />
+            <Linear Frame="12" Value="1457.00" />
+            <Linear Frame="13" Value="1242.00" />
+            <Linear Frame="14" Value="1035.00" />
+            <Linear Frame="15" Value="820.00" />
+            <Linear Frame="16" Value="610.00" />
+            <Linear Frame="17" Value="401.00" />
+          </X>
+        </Position>
+        <Plate Name="Line2TextBackgroundBar" Start="7" Duration="42" Color="FFD0D0D0" Size="1381.00;106.00" Source="File" File=".\_Assets\side_bg.png" FillMode="Fill" />
+        <Text Name="Line2Time" Start="7" Duration="42" Size="380.00;130.00" Position="-885.00;0.00;0.00" Font="Century Gothic;Regular;140;true;false" WordWrap="false" TextVAlign="Center" Value="${05_Line2Time.Text}">
+          <Opacity>
+            <Linear Frame="19" Value="0" />
+            <Linear Frame="23" Value="100" />
+          </Opacity>
+          <TextAutoFit MinSize="110" PreferredSize="140" MinSpacing="-15.00;-15.00;-62.00" />
+        </Text>
+        <Plate Name="Line2LightMask" Start="7" Duration="42" Size="1381.00;106.00">
+          <Mask />
+        </Plate>
+        <Group Name="Line2LightGroup" Start="7" Duration="42" Position="-124.00;0.00;0.00" Rotation="0.00;0.00;-123.00">
+          <Position>
+            <X>
+              <Linear Frame="14" Value="50.00" />
+              <Linear Frame="15" Value="60.00" />
+              <Linear Frame="16" Value="-124.00" />
+              <Linear Frame="17" Value="-309.00" />
+              <Linear Frame="18" Value="-495.00" />
+              <Linear Frame="19" Value="-678.00" />
+              <Linear Frame="20" Value="-850.00" />
+            </X>
+          </Position>
+          <Plate Name="Line2LightPlateBig" Start="7" Duration="42" Opacity="25" Size="210.00;136.00" />
+          <Plate Name="Line2LightPlateSmall" Start="7" Duration="42" Opacity="40" Size="210.00;95.00" />
+        </Group>
+        <Text Name="Line2Text" Start="7" Duration="42" Size="1150.00;100.00" Position="45.00;0.00;0.00" Font="Century Gothic;Regular;65;true;false" Color="FF000000" WordWrap="false" TextHAlign="Left" TextVAlign="Center" Value="${05_Line2Text.Text}">
+          <Opacity>
+            <Linear Frame="16" Value="0" />
+            <Linear Frame="17" Value="50" />
+            <Linear Frame="20" Value="100" />
+          </Opacity>
+          <Position>
+            <X>
+              <Linear Frame="17" Value="45.00" />
+              <Linear Frame="20" Value="-15.00" />
+              <Linear Frame="26" Value="-50.00" />
+            </X>
+          </Position>
+        </Text>
+      </Group>
+      <Group Name="Line3" EditorFlags="8" Start="9" Duration="40" Visible="${05_Line3.Visible}" Position="401.00;-361.00;0.00">
+        <Position>
+          <X>
+            <Linear Frame="13" Value="1660.00" />
+            <Linear Frame="14" Value="1457.00" />
+            <Linear Frame="15" Value="1242.00" />
+            <Linear Frame="16" Value="1035.00" />
+            <Linear Frame="17" Value="820.00" />
+            <Linear Frame="18" Value="610.00" />
+            <Linear Frame="19" Value="401.00" />
+          </X>
+        </Position>
+        <Plate Name="Line3TextBackgroundBar" Start="9" Duration="40" Color="FFD0D0D0" Size="1381.00;106.00" Source="File" File=".\_Assets\side_bg.png" FillMode="Fill" />
+        <Text Name="Line3Time" Start="9" Duration="40" Opacity="0" Size="380.00;130.00" Position="-885.00;0.00;0.00" Font="Century Gothic;Regular;140;true;false" WordWrap="false" TextVAlign="Center" Value="${05_Line3Time.Text}">
+          <Opacity>
+            <Linear Frame="21" Value="0" />
+            <Linear Frame="25" Value="100" />
+          </Opacity>
+          <TextAutoFit MinSize="110" PreferredSize="140" MinSpacing="-15.00;-15.00;-62.00" />
+        </Text>
+        <Plate Name="Line3LightMask" Start="9" Duration="40" Size="1381.00;106.00">
+          <Mask />
+        </Plate>
+        <Group Name="Line3LightGroup" Start="9" Duration="40" Position="50.00;0.00;0.00" Rotation="0.00;0.00;-123.00">
+          <Position>
+            <X>
+              <Linear Frame="16" Value="50.00" />
+              <Linear Frame="17" Value="60.00" />
+              <Linear Frame="18" Value="-124.00" />
+              <Linear Frame="19" Value="-309.00" />
+              <Linear Frame="20" Value="-495.00" />
+              <Linear Frame="21" Value="-678.00" />
+              <Linear Frame="22" Value="-850.00" />
+            </X>
+          </Position>
+          <Plate Name="Line3LightPlateBig" Start="9" Duration="40" Opacity="25" Size="210.00;136.00" />
+          <Plate Name="Line3LightPlateSmall" Start="9" Duration="40" Opacity="40" Size="210.00;95.00" />
+        </Group>
+        <Text Name="Line3Text" Start="9" Duration="40" Size="1150.00;100.00" Position="-15.00;0.00;0.00" Font="Century Gothic;Regular;65;true;false" Color="FF000000" WordWrap="false" TextHAlign="Left" TextVAlign="Center" Value="${05_Line3Text.Text}">
+          <Opacity>
+            <Linear Frame="18" Value="0" />
+            <Linear Frame="19" Value="50" />
+            <Linear Frame="22" Value="100" />
+          </Opacity>
+          <Position>
+            <X>
+              <Linear Frame="19" Value="45.00" />
+              <Linear Frame="22" Value="-15.00" />
+              <Linear Frame="28" Value="-50.00" />
+            </X>
+          </Position>
+        </Text>
+      </Group>
+    </Group>
+  </Scene>
+</CinegyTitler>

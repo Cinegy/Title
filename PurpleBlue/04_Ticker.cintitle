@@ -1,0 +1,186 @@
+<CinegyTitler Version="2.4">
+  <RootFolder Path="\\munich.cinegy.local\global\CompanyFiles\ProductManagement\Titler-Reference-Scenes\Generic Templates For Customers\PurpleBlue\" />
+  <Variables>
+    <Var Name="04_TitlerHeaderText.Text" Type="String" UpdateType="Instant" Value="News Header" />
+    <Var Name="04_TickerText.Text" Type="String" UpdateType="Instant" Value="Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text " />
+  </Variables>
+  <Scene Width="1920" Height="1080" Fps="25.000" Progressive="false" Aspect="16:9" Duration="49" Name="Ticker" EditorFlags="4" PlayMode="Loop" LoopStartFrame="30" LoopEndFrame="40" LoopCount="-1">
+    <Group Name="Scene" EditorFlags="8" Start="1" Duration="48" Position="0.00;-465.00;0.00">
+      <Opacity>
+        <Linear Frame="42" Value="100" />
+        <Linear Frame="46" Value="0" />
+      </Opacity>
+      <Group Name="TitlerHeader" EditorFlags="8" Start="1" Duration="48">
+        <Group Name="Header" EditorFlags="8" Start="1" Duration="48" Position="-659.00;0.00;0.00">
+          <Plate Name="TitlerHeaderBar" Start="1" Duration="48" Size="9.41;41.00" Position="104.80;0.00;0.00" Source="File" File=".\_Assets\left_bg.png" FillMode="Fill">
+            <Size>
+              <X>
+                <Linear Frame="9" Value="0.00" />
+                <Linear Frame="10" Value="10.00" />
+                <Linear Frame="11" Value="55.00" />
+                <Linear Frame="12" Value="100.00" />
+                <Linear Frame="13" Value="140.00" />
+                <Linear Frame="14" Value="185.00" />
+                <Linear Frame="15" Value="217.00" />
+              </X>
+            </Size>
+            <Position>
+              <X>
+                <Linear Frame="9" Value="108.00" />
+                <Linear Frame="10" Value="105.00" />
+                <Linear Frame="11" Value="82.00" />
+                <Linear Frame="12" Value="60.00" />
+                <Linear Frame="13" Value="40.00" />
+                <Linear Frame="14" Value="17.00" />
+                <Linear Frame="15" Value="0.00" />
+              </X>
+            </Position>
+          </Plate>
+          <Plate Name="HeaderLightMask" EditorFlags="8" Start="1" Duration="48" Size="185.00;41.00" Position="17.00;0.00;0.00">
+            <Size>
+              <X>
+                <Linear Frame="9" Value="0.00" />
+                <Linear Frame="10" Value="10.00" />
+                <Linear Frame="11" Value="55.00" />
+                <Linear Frame="12" Value="100.00" />
+                <Linear Frame="13" Value="140.00" />
+                <Linear Frame="14" Value="185.00" />
+                <Linear Frame="15" Value="217.00" />
+              </X>
+            </Size>
+            <Position>
+              <X>
+                <Linear Frame="9" Value="108.00" />
+                <Linear Frame="10" Value="105.00" />
+                <Linear Frame="11" Value="82.00" />
+                <Linear Frame="12" Value="60.00" />
+                <Linear Frame="13" Value="40.00" />
+                <Linear Frame="14" Value="17.00" />
+                <Linear Frame="15" Value="0.00" />
+              </X>
+            </Position>
+            <Mask />
+          </Plate>
+          <Group Name="HeaderLightBoxGroup" Start="1" Duration="48" Position="190.00;0.00;0.00" Rotation="0.00;0.00;-147.00">
+            <Position>
+              <X>
+                <Linear Frame="11" Value="190.00" />
+                <Linear Frame="12" Value="125.00" />
+                <Linear Frame="13" Value="45.00" />
+                <Linear Frame="14" Value="-30.00" />
+                <Linear Frame="15" Value="-115.00" />
+                <Linear Frame="16" Value="-190.00" />
+              </X>
+            </Position>
+            <Plate Name="HeaderLightBoxBig" Duration="48" Opacity="20" Size="110.00;140.00" />
+            <Plate Name="HeaderLightBoxSmall" Duration="48" Opacity="35" Size="75.00;120.00" />
+          </Group>
+          <Plate Name="HeaderTextMask" Start="1" Duration="48" Size="200.00;170.00" Position="0.00;-2.00;0.00" Rotation="0.00;0.00;-147.00">
+            <Position>
+              <X>
+                <Linear Frame="12" Value="0.00" />
+                <Linear Frame="13" Value="-8.00" />
+                <Linear Frame="14" Value="-83.00" />
+                <Linear Frame="15" Value="-167.00" />
+                <Linear Frame="16" Value="-246.00" />
+              </X>
+            </Position>
+            <Mask Invert="true" />
+          </Plate>
+          <Text Name="TitlerHeaderText" EditorFlags="8" Start="1" Duration="48" Size="205.00;41.00" Font="Century Gothic;Regular;37;true;false" WordWrap="false" TextVAlign="Center" Value="${04_TitlerHeaderText.Text}">
+            <TextAutoFit MinSize="27" PreferredSize="37" MinSpacing="-4.00;-4.00;-16.00" />
+          </Text>
+        </Group>
+        <Group Name="Ticker" EditorFlags="8" Start="1" Duration="48" Position="95.00;0.00;0.00">
+          <Plate Name="TickerBar" EditorFlags="8" Start="1" Duration="48" Color="FFF0F0F0" Size="8.58;41.00" Position="-642.21;0.00;0.00" Source="File" File=".\_Assets\middle_bg.png" FillMode="Fill">
+            <Size>
+              <X>
+                <Linear Frame="9" Value="0.00" />
+                <Linear Frame="10" Value="9.00" />
+                <Linear Frame="11" Value="135.00" />
+                <Linear Frame="12" Value="266.00" />
+                <Linear Frame="13" Value="394.00" />
+                <Linear Frame="14" Value="521.00" />
+                <Linear Frame="15" Value="652.00" />
+                <Linear Frame="16" Value="780.00" />
+                <Linear Frame="17" Value="910.00" />
+                <Linear Frame="18" Value="1038.00" />
+                <Linear Frame="19" Value="1167.00" />
+                <Linear Frame="20" Value="1292.00" />
+              </X>
+            </Size>
+            <Position>
+              <X>
+                <Linear Frame="9" Value="-645.00" />
+                <Linear Frame="10" Value="-643.00" />
+                <Linear Frame="11" Value="-579.00" />
+                <Linear Frame="12" Value="-513.00" />
+                <Linear Frame="13" Value="-449.00" />
+                <Linear Frame="14" Value="-385.00" />
+                <Linear Frame="15" Value="-319.00" />
+                <Linear Frame="16" Value="-255.00" />
+                <Linear Frame="17" Value="-190.00" />
+                <Linear Frame="18" Value="-126.00" />
+                <Linear Frame="19" Value="-62.00" />
+                <Linear Frame="20" Value="0.00" />
+              </X>
+            </Position>
+          </Plate>
+          <Plate Name="TickerLightMask" Start="1" Duration="48" Size="1292.00;41.00">
+            <Mask />
+          </Plate>
+          <Group Name="TickerLightBoxGroup" Start="1" Duration="48" Position="-635.00;0.00;0.00" Rotation="0.00;0.00;147.00">
+            <Position>
+              <X>
+                <Linear Frame="11" Value="-720.00" />
+                <Linear Frame="12" Value="-635.00" />
+                <Linear Frame="13" Value="-545.00" />
+                <Linear Frame="14" Value="-450.00" />
+                <Linear Frame="15" Value="-350.00" />
+                <Linear Frame="16" Value="-250.00" />
+                <Linear Frame="17" Value="-150.00" />
+                <Linear Frame="18" Value="-50.00" />
+                <Linear Frame="19" Value="50.00" />
+                <Linear Frame="20" Value="150.00" />
+                <Linear Frame="21" Value="250.00" />
+                <Linear Frame="22" Value="350.00" />
+                <Linear Frame="23" Value="450.00" />
+                <Linear Frame="24" Value="550.00" />
+                <Linear Frame="25" Value="650.00" />
+                <Linear Frame="26" Value="750.00" />
+              </X>
+            </Position>
+            <Plate Name="TickerLightBoxBig" Start="1" Duration="48" Opacity="30" Size="110.00;140.00" />
+            <Plate Name="TickerLightBoxSmall" Start="1" Duration="48" Opacity="45" Size="75.00;120.00" />
+          </Group>
+          <Marquee Name="TickerText" Start="15" Duration="33" Size="1292.00;45.00" Font="Century Gothic;Regular;35;true;false" Color="FF000000" Value="${04_TickerText.Text}" LeaveLoopOnEnd="true" />
+        </Group>
+        <Group Name="Time" EditorFlags="8" Start="1" Duration="48" Position="803.00;0.00;0.00">
+          <Plate Name="TimeMask" Start="1" Duration="48" Size="127.00;41.00">
+            <Mask />
+          </Plate>
+          <Group Name="TimeMaskedGroup" Start="1" Duration="48">
+            <Opacity>
+              <Linear Frame="20" Value="0" />
+              <Linear Frame="21" Value="100" />
+            </Opacity>
+            <Position>
+              <X>
+                <Linear Frame="20" Value="-125.00" />
+                <Linear Frame="24" Value="0.00" />
+              </X>
+            </Position>
+            <Plate Name="TimeBar" Start="1" Duration="48" Size="127.00;41.00" Source="File" File=".\_Assets\right_bg.png" FillMode="Fill" />
+            <Clock Name="TimeText" Start="1" Duration="48" Size="120.00;41.00" Font="Century Gothic;Regular;40;true;false" Value="Text" TimeFormat="hh:mm" TimeOffset="00:00:00.000" />
+          </Group>
+        </Group>
+        <Plate Name="Gradient" Start="1" Duration="48" Opacity="0" Size="1634.00;35.00" Position="48.00;0.00;0.00" Source="File" File=".\_Assets\Gradient.png" FillMode="Fill">
+          <Opacity>
+            <Linear Frame="23" Value="0" />
+            <Linear Frame="28" Value="35" />
+          </Opacity>
+        </Plate>
+      </Group>
+    </Group>
+  </Scene>
+</CinegyTitler>
