@@ -1,0 +1,189 @@
+<CinegyTitler Version="2.4">
+  <RootFolder Path="C:\Data\Dev\Git\Cinegy.Title\Basketball\" />
+  <Variables>
+    <Var Name="T1F1.File" Type="File" UpdateType="Instant" Value=".\Content\FOUL_YELLOW.png" />
+    <Var Name="T1F2.File" Type="File" UpdateType="Instant" Value=".\Content\FOUL_YELLOW.png" />
+    <Var Name="T1F3.File" Type="File" UpdateType="Instant" Value=".\Content\FOUL_YELLOW.png" />
+    <Var Name="T1F4.File" Type="File" UpdateType="Instant" Value=".\Content\FOUL_RED.png" />
+    <Var Name="T1F5.File" Type="File" UpdateType="Instant" Value=".\Content\FOUL_RED.png" />
+    <Var Name="T2F1.File" Type="File" UpdateType="Instant" Value=".\Content\FOUL_RED.png" />
+    <Var Name="T2F2.File" Type="File" UpdateType="Instant" Value=".\Content\FOUL_RED.png" />
+    <Var Name="T2F3.File" Type="File" UpdateType="Instant" Value=".\Content\FOUL_RED.png" />
+    <Var Name="T2F4.File" Type="File" UpdateType="Instant" Value=".\Content\FOUL_YELLOW.png" />
+    <Var Name="T2F5.File" Type="File" UpdateType="Instant" Value=".\Content\FOUL_YELLOW.png" />
+    <Var Name="PERIODNAME.Text" Type="String" UpdateType="Instant" Value="H.T." />
+    <Var Name="CLOCK.Text" Type="String" UpdateType="Instant" Value="10:00" />
+    <Var Name="TEAM1LONGNAME.Text" Type="String" UpdateType="Instant" Value="Olympiacos" />
+    <Var Name="TEAM2LONGNAME.Text" Type="String" UpdateType="Instant" Value="Real Madrid" />
+    <Var Name="TEAM1SCORE.Text" Type="String" UpdateType="Instant" Value="78" />
+    <Var Name="TEAM2SCORE.Text" Type="String" UpdateType="Instant" Value="79" />
+    <Var Name="TEAM1LSHORTNAME.Text" Type="String" UpdateType="Instant" Value="OLY" />
+    <Var Name="TEAM2LSHORTNAME.Text" Type="String" UpdateType="Instant" Value="REAL" />
+    <Var Name="TEAM1LOGO.File" Type="File" UpdateType="Instant" Value=".\Logos\Olympiacos.png" />
+    <Var Name="TEAM2LOGO.File" Type="File" UpdateType="Instant" Value=".\Logos\Real_Madrid_Baloncesto.png" />
+    <Var Name="SHOT.Visible" Type="Bool" UpdateType="Instant" Value="True" />
+    <Var Name="LIGNAME.Text" Type="String" UpdateType="Instant" Value="Turkish Airlines&#xA;Euroleague" />
+  </Variables>
+  <Scene Width="1920" Height="1080" Fps="25.000" Progressive="false" Aspect="16:9" Duration="101" Name="TIMER" PlayMode="Loop" LoopStartFrame="75" LoopEndFrame="80" LoopCount="-1">
+    <Group Name="MAIN" Start="1" Duration="99" Opacity="0">
+      <Opacity>
+        <Linear Frame="1" Value="0" />
+        <Linear Frame="5" Value="100" />
+        <Linear Frame="85" Value="100" />
+        <Linear Frame="90" Value="0" />
+      </Opacity>
+      <Plate Name="MAIN" Start="1" Duration="99" Size="1920.00;1080.00" Source="File" File=".\Content\SKORBOARD.avi" />
+      <Plate Name="FEDLOGO" EditorFlags="8" Start="1" Duration="99" Opacity="0" Size="80.00;50.00" Position="-410.00;-423.00;0.00" Source="File" File=".\Logos\logo-default.png">
+        <Opacity>
+          <Linear Frame="55" Value="0" />
+          <Linear Frame="60" Value="95" />
+        </Opacity>
+      </Plate>
+      <Text Name="TOURNAMENTNAME" EditorFlags="8" Start="1" Duration="99" Opacity="0" Size="148.11;60.00" Position="-509.05;-424.00;0.00" Font="Century Gothic;Regular;19;true;false" TextSubpixelAlign="false" TextHAlign="Right" TextVAlign="Center" Value="${LIGNAME.Text}">
+        <Opacity>
+          <Linear Frame="55" Value="0" />
+          <Linear Frame="60" Value="100" />
+        </Opacity>
+      </Text>
+      <Group Name="SCOREBOARD" Start="1" Duration="100">
+        <Text Name="TEAM1LONGNAME" Start="1" Duration="100" Size="375.00;50.00" Position="-325.00;-413.00;0.00" Font="Century Gothic;Regular;45;true;false" WordWrap="false" TextHAlign="Right" TextVAlign="Center" Value="${TEAM1LONGNAME.Text}">
+          <Opacity>
+            <Linear Frame="10" Value="0" />
+            <Linear Frame="15" Value="100" />
+            <Linear Frame="37" Value="100" />
+            <Linear Frame="40" Value="0" />
+          </Opacity>
+          <TextAutoFit MinSize="35" PreferredSize="45" MinSpacing="-4.00;-4.00;-21.00" />
+        </Text>
+        <Text Name="TEAM1LSHORTNAME" Start="46" Duration="55" Opacity="0" Size="120.00;70.00" Position="-200.00;-413.00;0.00" Font="Century Gothic;Regular;60;true;false" WordWrap="false" TextVAlign="Center" Value="${TEAM1LSHORTNAME.Text}">
+          <Opacity>
+            <Linear Frame="46" Value="0" />
+            <Linear Frame="51" Value="100" />
+          </Opacity>
+          <TextAutoFit MinSize="50" PreferredSize="60" MinSpacing="-4.00;-4.00;-21.00" />
+        </Text>
+        <Text Name="TEAM2LONGNAME" Start="1" Duration="100" Opacity="0" Size="375.00;50.00" Position="325.00;-413.00;0.00" Font="Century Gothic;Regular;45;true;false" WordWrap="false" TextHAlign="Left" TextVAlign="Center" Value="${TEAM2LONGNAME.Text}">
+          <Opacity>
+            <Linear Frame="10" Value="0" />
+            <Linear Frame="15" Value="100" />
+            <Linear Frame="37" Value="100" />
+            <Linear Frame="40" Value="0" />
+          </Opacity>
+          <TextAutoFit MinSize="35" PreferredSize="45" MinSpacing="-4.00;-4.00;-21.00" />
+        </Text>
+        <Text Name="TEAM2LSHORTNAME" Start="46" Duration="55" Size="120.00;70.00" Position="200.00;-413.00;0.00" Font="Century Gothic;Regular;60;true;false" WordWrap="false" TextVAlign="Center" Value="${TEAM2LSHORTNAME.Text}">
+          <Opacity>
+            <Linear Frame="46" Value="0" />
+            <Linear Frame="51" Value="100" />
+          </Opacity>
+          <TextAutoFit MinSize="50" PreferredSize="60" MinSpacing="-4.00;-4.00;-21.00" />
+        </Text>
+        <Text Name="PERIODNAME" Start="1" Duration="100" Size="80.00;50.00" Position="-45.00;-358.00;0.00" Font="Century Gothic;Regular;45;true;false" TextVAlign="Center" Value="${PERIODNAME.Text}">
+          <Opacity>
+            <Linear Frame="20" Value="0" />
+            <Linear Frame="24" Value="100" />
+            <Linear Frame="36" Value="100" />
+            <Linear Frame="40" Value="0" />
+          </Opacity>
+        </Text>
+        <Text Name="PERIODNAMEDOWN" EditorFlags="8" Start="46" Duration="55" Opacity="0" Size="90.00;50.00" Position="426.00;-422.00;0.00" Font="Century Gothic;Regular;45;true;false" TextVAlign="Center" Value="${PERIODNAME.Text}">
+          <Opacity>
+            <Linear Frame="46" Value="0" />
+            <Linear Frame="51" Value="0" />
+            <Linear Frame="53" Value="100" />
+          </Opacity>
+        </Text>
+        <Text Name="CLOCK" Start="1" Duration="100" Size="120.00;50.00" Position="47.00;-358.00;0.00" Font="Century Gothic;Regular;40;true;false" TextVAlign="Center" Value="${CLOCK.Text}">
+          <Opacity>
+            <Linear Frame="20" Value="0" />
+            <Linear Frame="23" Value="100" />
+            <Linear Frame="36" Value="100" />
+            <Linear Frame="40" Value="0" />
+          </Opacity>
+        </Text>
+        <Text Name="CLOCKDOWN" Start="1" Duration="100" Opacity="0" Size="120.00;50.00" Position="528.00;-422.00;0.00" Font="Century Gothic;Regular;45;true;false" TextVAlign="Center" Value="${CLOCK.Text}">
+          <Opacity>
+            <Linear Frame="52" Value="0" />
+            <Linear Frame="57" Value="100" />
+          </Opacity>
+        </Text>
+        <Plate Name="SHOT" EditorFlags="1" Start="1" Duration="100" Visible="${SHOT.Visible}" Opacity="0" Size="60.92;47.10" Position="623.00;-423.00;0.00">
+          <Opacity>
+            <Linear Frame="60" Value="0" />
+            <Linear Frame="65" Value="100" />
+          </Opacity>
+        </Plate>
+        <Text Name="TEAM1SCORE" EditorFlags="8" Start="1" Duration="100" Size="100.00;50.00" Position="-55.00;-413.00;0.00" Font="Century Gothic;Regular;80;true;false" Color="FF000000" TextVAlign="Center" Value="${TEAM1SCORE.Text}">
+          <Opacity>
+            <Linear Frame="12" Value="0" />
+            <Linear Frame="17" Value="100" />
+          </Opacity>
+        </Text>
+        <Text Name="TEAM2SCORE" EditorFlags="4" Start="1" Duration="100" Size="100.00;50.00" Position="55.00;-413.00;0.00" Font="Century Gothic;Regular;80;true;false" Color="FF000000" TextVAlign="Center" Value="${TEAM2SCORE.Text}">
+          <Opacity>
+            <Linear Frame="12" Value="0" />
+            <Linear Frame="17" Value="100" />
+          </Opacity>
+        </Text>
+        <Group Name="LOGO1" Start="1" Duration="100" Position="-330.00;-415.00;0.00">
+          <Opacity>
+            <Linear Frame="15" Value="0" />
+            <Linear Frame="19" Value="100" />
+            <Linear Frame="34" Value="100" />
+            <Linear Frame="37" Value="0" />
+            <Linear Frame="45" Value="0" />
+            <Linear Frame="47" Value="100" />
+          </Opacity>
+          <Position>
+            <X>
+              <Linear Frame="19" Value="-615.00" />
+              <Linear Frame="34" Value="-615.00" />
+              <Linear Frame="47" Value="-330.00" />
+            </X>
+          </Position>
+          <Plate Name="TEAM1LOGO" Start="1" Duration="100" Size="75.00;75.00" Source="File" File="${TEAM1LOGO.File}" />
+        </Group>
+        <Group Name="LOGO2" Start="1" Duration="100" Position="327.00;-413.00;0.00">
+          <Opacity>
+            <Linear Frame="15" Value="0" />
+            <Linear Frame="19" Value="100" />
+            <Linear Frame="34" Value="100" />
+            <Linear Frame="37" Value="0" />
+            <Linear Frame="45" Value="0" />
+            <Linear Frame="47" Value="100" />
+          </Opacity>
+          <Position>
+            <X>
+              <Linear Frame="19" Value="613.00" />
+              <Linear Frame="34" Value="613.00" />
+              <Linear Frame="47" Value="327.00" />
+            </X>
+          </Position>
+          <Plate Name="TEAM2LOGO" Start="1" Duration="100" Size="75.00;75.00" Source="File" File="${TEAM2LOGO.File}" />
+        </Group>
+      </Group>
+      <Group Name="TEAM1_FOULS" Start="45" Duration="50" Opacity="0">
+        <Opacity>
+          <Linear Frame="45" Value="0" />
+          <Linear Frame="50" Value="100" />
+        </Opacity>
+        <Plate Name="T1F1" Start="45" Duration="50" Size="37.00;20.00" Position="-89.00;-464.00;0.00" Source="File" File="${T1F1.File}" />
+        <Plate Name="T1F2" EditorFlags="8" Start="45" Duration="50" Size="37.00;20.00" Position="-124.00;-464.00;0.00" Source="File" File="${T1F2.File}" />
+        <Plate Name="T1F3" EditorFlags="8" Start="45" Duration="50" Size="37.00;20.00" Position="-159.00;-464.00;0.00" Source="File" File="${T1F3.File}" />
+        <Plate Name="T1F4" Start="45" Duration="50" Size="37.00;20.00" Position="-194.00;-464.00;0.00" Source="File" File="${T1F4.File}" />
+        <Plate Name="T1F5" EditorFlags="8" Start="45" Duration="50" Size="37.00;20.00" Position="-229.00;-464.00;0.00" Source="File" File="${T1F5.File}" />
+      </Group>
+      <Group Name="TEAM2_FOULS" Start="45" Duration="50" Position="321.00;0.00;0.00">
+        <Opacity>
+          <Linear Frame="45" Value="0" />
+          <Linear Frame="50" Value="100" />
+        </Opacity>
+        <Plate Name="T2F1" Start="45" Duration="50" Size="37.00;20.00" Position="-229.00;-464.00;0.00" Source="File" File="${T2F1.File}" />
+        <Plate Name="T2F2" Start="45" Duration="50" Size="37.00;20.00" Position="-194.00;-464.00;0.00" Source="File" File="${T2F2.File}" />
+        <Plate Name="T2F3" Start="45" Duration="50" Size="37.00;20.00" Position="-159.00;-464.00;0.00" Source="File" File="${T2F3.File}" />
+        <Plate Name="T2F4" Start="45" Duration="50" Size="37.00;20.00" Position="-124.00;-464.00;0.00" Source="File" File="${T2F4.File}" />
+        <Plate Name="T2F5" Start="45" Duration="50" Size="37.00;20.00" Position="-89.00;-464.00;0.00" Source="File" File="${T2F5.File}" />
+      </Group>
+    </Group>
+  </Scene>
+</CinegyTitler>
