@@ -1,0 +1,202 @@
+<CinegyTitler Version="2.4">
+  <RootFolder Path="C:\Data\Cinegy\Basketball\" />
+  <Variables>
+    <Var Name="TeamName.Text" Type="String" UpdateType="Instant" Value="MIAMI HEAT" />
+    <Var Name="TeamLogo.File" Type="File" UpdateType="Instant" Value=".\_Assets\MiamiHeat.png" />
+    <Var Name="No_01.Text" Type="String" UpdateType="Instant" Value="#2" />
+    <Var Name="Name_01.Text" Type="String" UpdateType="Instant" Value="Terry [b]ROZIER" />
+    <Var Name="Pos_01.Text" Type="String" UpdateType="Instant" Value="Guard" />
+    <Var Name="Height_01.Text" Type="String" UpdateType="Instant" Value="6'1&quot;" />
+    <Var Name="No_02.Text" Type="String" UpdateType="Instant" Value="#4" />
+    <Var Name="Name_02.Text" Type="String" UpdateType="Instant" Value="Delon [b]WRIGHT" />
+    <Var Name="Pos_02.Text" Type="String" UpdateType="Instant" Value="Guard" />
+    <Var Name="Height_02.Text" Type="String" UpdateType="Instant" Value="6'5&quot;" />
+    <Var Name="No_03.Text" Type="String" UpdateType="Instant" Value="#5" />
+    <Var Name="Name_03.Text" Type="String" UpdateType="Instant" Value="Nikola [b]JOVIC" />
+    <Var Name="Pos_03.Text" Type="String" UpdateType="Instant" Value="Forward" />
+    <Var Name="Height_03.Text" Type="String" UpdateType="Instant" Value="6'10&quot;" />
+    <Var Name="No_04.Text" Type="String" UpdateType="Instant" Value="#8" />
+    <Var Name="Name_04.Text" Type="String" UpdateType="Instant" Value="Jamal [b]CAIN" />
+    <Var Name="Pos_04.Text" Type="String" UpdateType="Instant" Value="Forward" />
+    <Var Name="Height_04.Text" Type="String" UpdateType="Instant" Value="6'6&quot;" />
+    <Var Name="No_05.Text" Type="String" UpdateType="Instant" Value="#11" />
+    <Var Name="Name_05.Text" Type="String" UpdateType="Instant" Value="Jamie [b]JAQUEZ JR" />
+    <Var Name="Pos_05.Text" Type="String" UpdateType="Instant" Value="Guard" />
+    <Var Name="Height_05.Text" Type="String" UpdateType="Instant" Value="6'6&quot;" />
+    <Var Name="No_06.Text" Type="String" UpdateType="Instant" Value="#13" />
+    <Var Name="Name_06.Text" Type="String" UpdateType="Instant" Value="Bam [b]ADEBAYO" />
+    <Var Name="Pos_06.Text" Type="String" UpdateType="Instant" Value="Center Forward" />
+    <Var Name="Height_06.Text" Type="String" UpdateType="Instant" Value="6'9&quot;" />
+    <Var Name="No_07.Text" Type="String" UpdateType="Instant" Value="#15" />
+    <Var Name="Name_07.Text" Type="String" UpdateType="Instant" Value="Alondes [b]WILLIAMS" />
+    <Var Name="Pos_07.Text" Type="String" UpdateType="Instant" Value="Guard" />
+    <Var Name="Height_07.Text" Type="String" UpdateType="Instant" Value="6'4&quot;" />
+    <Var Name="No_08.Text" Type="String" UpdateType="Instant" Value="#16" />
+    <Var Name="Name_08.Text" Type="String" UpdateType="Instant" Value="Caleb [b]MARTIN" />
+    <Var Name="Pos_08.Text" Type="String" UpdateType="Instant" Value="Forward" />
+    <Var Name="Height_08.Text" Type="String" UpdateType="Instant" Value="6'5&quot;" />
+    <Var Name="No_09.Text" Type="String" UpdateType="Instant" Value="#21" />
+    <Var Name="Name_09.Text" Type="String" UpdateType="Instant" Value="Cole [b]SWIDER" />
+    <Var Name="Pos_09.Text" Type="String" UpdateType="Instant" Value="Forward" />
+    <Var Name="Height_09.Text" Type="String" UpdateType="Instant" Value="6'8&quot;" />
+    <Var Name="No_10.Text" Type="String" UpdateType="Instant" Value="#24" />
+    <Var Name="Name_10.Text" Type="String" UpdateType="Instant" Value="Haywood [b]HIGHSMITH" />
+    <Var Name="Pos_10.Text" Type="String" UpdateType="Instant" Value="Forward" />
+    <Var Name="Height_10.Text" Type="String" UpdateType="Instant" Value="6'5&quot;" />
+    <Var Name="No_11.Text" Type="String" UpdateType="Instant" Value="#25" />
+    <Var Name="Name_11.Text" Type="String" UpdateType="Instant" Value="Orlando [b]ROBINSON" />
+    <Var Name="Pos_11.Text" Type="String" UpdateType="Instant" Value="Center" />
+    <Var Name="Height_11.Text" Type="String" UpdateType="Instant" Value="6'10&quot;" />
+    <Var Name="No_12.Text" Type="String" UpdateType="Instant" Value="#31" />
+    <Var Name="Name_12.Text" Type="String" UpdateType="Instant" Value="Thomas [b]BRYANT" />
+    <Var Name="Pos_12.Text" Type="String" UpdateType="Instant" Value="Center Forward" />
+    <Var Name="Height_12.Text" Type="String" UpdateType="Instant" Value="6'10&quot;" />
+    <Var Name="No_13.Text" Type="String" UpdateType="Instant" Value="#88" />
+    <Var Name="Name_13.Text" Type="String" UpdateType="Instant" Value="Patty [b]MILLS" />
+    <Var Name="Pos_13.Text" Type="String" UpdateType="Instant" Value="Guard" />
+    <Var Name="Height_13.Text" Type="String" UpdateType="Instant" Value="6'2&quot;" />
+  </Variables>
+  <Scene Width="1920" Height="1080" Fps="25.000" Progressive="false" Aspect="16:9" Duration="60" Name="02_Rooster" PlayMode="Loop" LoopStartFrame="26" LoopEndFrame="31" LoopCount="-1">
+    <Group Name="Scene" Duration="60">
+      <Plate Name="Background" EditorFlags="12" Duration="60" Size="1920.00;1080.00" Source="File" File=".\_Assets\ROOSTER.mxf" />
+      <Group Name="Content" EditorFlags="8" Duration="60">
+        <Group Name="TeamBar" EditorFlags="8" Duration="60" Opacity="0">
+          <Opacity>
+            <Linear Frame="17" Value="0" />
+            <Linear Frame="22" Value="100" />
+            <Linear Frame="36" Value="100" />
+            <Linear Frame="41" Value="0" />
+          </Opacity>
+          <Text Name="TeamName" Duration="60" Size="790.00;96.00" Position="70.00;382.00;0.00" Font="Eurostile LT Pro Unicode;Demi;80;false;false" TextVAlign="Center" Value="${TeamName.Text}" />
+          <Plate Name="LogoMask" Duration="60" Size="115.00;75.00" Position="-415.00;378.00;0.00">
+            <Mask />
+          </Plate>
+          <Plate Name="TeamLogo" Duration="60" Size="100.00;100.00" Position="-415.00;378.00;0.00" Source="File" File="${TeamLogo.File}" />
+        </Group>
+        <Plate Name="ContentMask" Duration="60" Size="960.00;0.00" Position="0.00;-16.00;0.00">
+          <Size>
+            <Y>
+              <Linear Frame="5" Value="0.00" />
+              <Linear Frame="6" Value="7.00" />
+              <Linear Frame="7" Value="35.00" />
+              <Linear Frame="8" Value="120.00" />
+              <Linear Frame="9" Value="295.00" />
+              <Linear Frame="10" Value="490.00" />
+              <Linear Frame="11" Value="590.00" />
+              <Linear Frame="12" Value="632.00" />
+              <Linear Frame="13" Value="660.00" />
+              <Linear Frame="14" Value="690.00" />
+              <Linear Frame="15" Value="700.00" />
+              <Linear Frame="43" Value="700.00" />
+              <Linear Frame="45" Value="660.00" />
+              <Linear Frame="47" Value="580.00" />
+              <Linear Frame="48" Value="480.00" />
+              <Linear Frame="49" Value="300.00" />
+              <Linear Frame="50" Value="120.00" />
+              <Linear Frame="51" Value="40.00" />
+              <Linear Frame="53" Value="0.00" />
+            </Y>
+          </Size>
+          <Position>
+            <Y>
+              <Linear Frame="6" Value="-16.00" />
+              <Linear Frame="43" Value="-16.00" />
+            </Y>
+          </Position>
+          <Mask />
+        </Plate>
+        <Group Name="Player_01" EditorFlags="8" Duration="60" Position="0.00;290.00;0.00">
+          <Text Name="No_01" EditorFlags="8" Duration="60" Size="90.00;40.00" Position="-420.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${No_01.Text}" />
+          <Text Name="Name_01" Duration="60" Size="500.00;40.00" Position="-130.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextHAlign="Left" TextVAlign="Center" Value="${Name_01.Text}" />
+          <Text Name="Pos_01" EditorFlags="8" Duration="60" Size="170.00;40.00" Position="220.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${Pos_01.Text}" />
+          <Text Name="Height_01" Duration="60" Size="120.00;40.00" Position="385.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextVAlign="Center" Value="${Height_01.Text}" />
+          <Plate Name="Line" Duration="60" Size="1020.00;22.00" Position="0.00;-18.00;0.00" Source="File" File=".\_Assets\Line.png" />
+        </Group>
+        <Group Name="Player_02" EditorFlags="8" Duration="60" Position="0.00;240.00;0.00">
+          <Text Name="No_02" EditorFlags="8" Duration="60" Size="90.00;40.00" Position="-420.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${No_02.Text}" />
+          <Text Name="Name_02" EditorFlags="8" Duration="60" Size="500.00;40.00" Position="-130.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextHAlign="Left" TextVAlign="Center" Value="${Name_02.Text}" />
+          <Text Name="Pos_02" Duration="60" Size="170.00;40.00" Position="220.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${Pos_02.Text}" />
+          <Text Name="Height_02" EditorFlags="8" Duration="60" Size="120.00;40.00" Position="385.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextVAlign="Center" Value="${Height_02.Text}" />
+          <Plate Name="Line" Duration="60" Size="1020.00;22.00" Position="0.00;-18.00;0.00" Source="File" File=".\_Assets\Line.png" />
+        </Group>
+        <Group Name="Player_03" EditorFlags="8" Duration="60" Position="0.00;190.00;0.00">
+          <Text Name="No_03" EditorFlags="8" Duration="60" Size="90.00;40.00" Position="-420.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${No_03.Text}" />
+          <Text Name="Name_03" EditorFlags="8" Duration="60" Size="500.00;40.00" Position="-130.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextHAlign="Left" TextVAlign="Center" Value="${Name_03.Text}" />
+          <Text Name="Pos_03" EditorFlags="8" Duration="60" Size="170.00;40.00" Position="220.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${Pos_03.Text}" />
+          <Text Name="Height_03" EditorFlags="8" Duration="60" Size="120.00;40.00" Position="385.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextVAlign="Center" Value="${Height_03.Text}" />
+          <Plate Name="Line" Duration="60" Size="1020.00;22.00" Position="0.00;-18.00;0.00" Source="File" File=".\_Assets\Line.png" />
+        </Group>
+        <Group Name="Player_04" EditorFlags="8" Duration="60" Position="0.00;140.00;0.00">
+          <Text Name="No_04" EditorFlags="8" Duration="60" Size="90.00;40.00" Position="-420.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${No_04.Text}" />
+          <Text Name="Name_04" EditorFlags="8" Duration="60" Size="500.00;40.00" Position="-130.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextHAlign="Left" TextVAlign="Center" Value="${Name_04.Text}" />
+          <Text Name="Pos_04" EditorFlags="8" Duration="60" Size="170.00;40.00" Position="220.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${Pos_04.Text}" />
+          <Text Name="Height_04" EditorFlags="8" Duration="60" Size="120.00;40.00" Position="385.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextVAlign="Center" Value="${Height_04.Text}" />
+          <Plate Name="Line" Duration="60" Size="1020.00;22.00" Position="0.00;-18.00;0.00" Source="File" File=".\_Assets\Line.png" />
+        </Group>
+        <Group Name="Player_05" EditorFlags="8" Duration="60" Position="0.00;90.00;0.00">
+          <Text Name="No_05" EditorFlags="8" Duration="60" Size="90.00;40.00" Position="-420.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${No_05.Text}" />
+          <Text Name="Name_05" EditorFlags="8" Duration="60" Size="500.00;40.00" Position="-130.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextHAlign="Left" TextVAlign="Center" Value="${Name_05.Text}" />
+          <Text Name="Pos_05" EditorFlags="8" Duration="60" Size="170.00;40.00" Position="220.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${Pos_05.Text}" />
+          <Text Name="Height_05" EditorFlags="8" Duration="60" Size="120.00;40.00" Position="385.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextVAlign="Center" Value="${Height_05.Text}" />
+          <Plate Name="Line" Duration="60" Size="1020.00;22.00" Position="0.00;-18.00;0.00" Source="File" File=".\_Assets\Line.png" />
+        </Group>
+        <Group Name="Player_06" EditorFlags="8" Duration="60" Position="0.00;40.00;0.00">
+          <Text Name="No_06" EditorFlags="8" Duration="60" Size="90.00;40.00" Position="-420.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${No_06.Text}" />
+          <Text Name="Name_06" EditorFlags="8" Duration="60" Size="500.00;40.00" Position="-130.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextHAlign="Left" TextVAlign="Center" Value="${Name_06.Text}" />
+          <Text Name="Pos_06" EditorFlags="8" Duration="60" Size="240.00;40.00" Position="220.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${Pos_06.Text}" />
+          <Text Name="Height_06" EditorFlags="8" Duration="60" Size="120.00;40.00" Position="385.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextVAlign="Center" Value="${Height_06.Text}" />
+          <Plate Name="Line" Duration="60" Size="1020.00;22.00" Position="0.00;-18.00;0.00" Source="File" File=".\_Assets\Line.png" />
+        </Group>
+        <Group Name="Player_07" EditorFlags="8" Duration="60" Position="0.00;-10.00;0.00">
+          <Text Name="No_07" EditorFlags="8" Duration="60" Size="90.00;40.00" Position="-420.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${No_07.Text}" />
+          <Text Name="Name_07" EditorFlags="8" Duration="60" Size="500.00;40.00" Position="-130.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextHAlign="Left" TextVAlign="Center" Value="${Name_07.Text}" />
+          <Text Name="Pos_07" EditorFlags="8" Duration="60" Size="170.00;40.00" Position="220.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${Pos_07.Text}" />
+          <Text Name="Height_07" EditorFlags="8" Duration="60" Size="120.00;40.00" Position="385.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextVAlign="Center" Value="${Height_07.Text}" />
+          <Plate Name="Line" Duration="60" Size="1020.00;22.00" Position="0.00;-18.00;0.00" Source="File" File=".\_Assets\Line.png" />
+        </Group>
+        <Group Name="Player_08" EditorFlags="8" Duration="60" Position="0.00;-60.00;0.00">
+          <Text Name="No_08" Duration="60" Size="90.00;40.00" Position="-420.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${No_08.Text}" />
+          <Text Name="Name_08" Duration="60" Size="500.00;40.00" Position="-130.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextHAlign="Left" TextVAlign="Center" Value="${Name_08.Text}" />
+          <Text Name="Pos_08" EditorFlags="8" Duration="60" Size="170.00;40.00" Position="220.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${Pos_08.Text}" />
+          <Text Name="Height_08" EditorFlags="8" Duration="60" Size="120.00;40.00" Position="385.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextVAlign="Center" Value="${Height_08.Text}" />
+          <Plate Name="Line" Duration="60" Size="1020.00;22.00" Position="0.00;-18.00;0.00" Source="File" File=".\_Assets\Line.png" />
+        </Group>
+        <Group Name="Player_09" EditorFlags="8" Duration="60" Position="0.00;-110.00;0.00">
+          <Text Name="No_09" EditorFlags="8" Duration="60" Size="90.00;40.00" Position="-420.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${No_09.Text}" />
+          <Text Name="Name_09" EditorFlags="8" Duration="60" Size="500.00;40.00" Position="-130.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextHAlign="Left" TextVAlign="Center" Value="${Name_09.Text}" />
+          <Text Name="Pos_09" EditorFlags="8" Duration="60" Size="170.00;40.00" Position="220.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${Pos_09.Text}" />
+          <Text Name="Height_09" EditorFlags="8" Duration="60" Size="120.00;40.00" Position="385.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextVAlign="Center" Value="${Height_09.Text}" />
+          <Plate Name="Line" Duration="60" Size="1020.00;22.00" Position="0.00;-18.00;0.00" Source="File" File=".\_Assets\Line.png" />
+        </Group>
+        <Group Name="Player_10" EditorFlags="8" Duration="60" Position="0.00;-160.00;0.00">
+          <Text Name="No_10" EditorFlags="8" Duration="60" Size="90.00;40.00" Position="-420.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${No_10.Text}" />
+          <Text Name="Name_10" EditorFlags="8" Duration="60" Size="500.00;40.00" Position="-130.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextHAlign="Left" TextVAlign="Center" Value="${Name_10.Text}" />
+          <Text Name="Pos_10" EditorFlags="8" Duration="60" Size="170.00;40.00" Position="220.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${Pos_10.Text}" />
+          <Text Name="Height_10" EditorFlags="8" Duration="60" Size="120.00;40.00" Position="385.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextVAlign="Center" Value="${Height_10.Text}" />
+          <Plate Name="Line" Duration="60" Size="1020.00;22.00" Position="0.00;-18.00;0.00" Source="File" File=".\_Assets\Line.png" />
+        </Group>
+        <Group Name="Player_11" EditorFlags="8" Duration="60" Position="0.00;-210.00;0.00">
+          <Text Name="No_11" EditorFlags="8" Duration="60" Size="90.00;40.00" Position="-420.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${No_11.Text}" />
+          <Text Name="Name_11" Duration="60" Size="500.00;40.00" Position="-130.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextHAlign="Left" TextVAlign="Center" Value="${Name_11.Text}" />
+          <Text Name="Pos_11" EditorFlags="8" Duration="60" Size="170.00;40.00" Position="220.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${Pos_11.Text}" />
+          <Text Name="Height_11" EditorFlags="8" Duration="60" Size="120.00;40.00" Position="385.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextVAlign="Center" Value="${Height_11.Text}" />
+          <Plate Name="Line" Duration="60" Size="1020.00;22.00" Position="0.00;-18.00;0.00" Source="File" File=".\_Assets\Line.png" />
+        </Group>
+        <Group Name="Player_12" EditorFlags="8" Duration="60" Position="0.00;-260.00;0.00">
+          <Text Name="No_12" EditorFlags="8" Duration="60" Size="90.00;40.00" Position="-420.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${No_12.Text}" />
+          <Text Name="Name_12" EditorFlags="8" Duration="60" Size="500.00;40.00" Position="-130.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextHAlign="Left" TextVAlign="Center" Value="${Name_12.Text}" />
+          <Text Name="Pos_12" EditorFlags="8" Duration="60" Size="240.00;40.00" Position="220.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${Pos_12.Text}" />
+          <Text Name="Height_12" EditorFlags="8" Duration="60" Size="120.00;40.00" Position="385.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextVAlign="Center" Value="${Height_12.Text}" />
+          <Plate Name="Line" Duration="60" Size="1020.00;22.00" Position="0.00;-18.00;0.00" Source="File" File=".\_Assets\Line.png" />
+        </Group>
+        <Group Name="Player_13" EditorFlags="8" Duration="60" Position="0.00;-310.00;0.00">
+          <Text Name="No_13" EditorFlags="8" Duration="60" Size="90.00;40.00" Position="-420.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${No_13.Text}" />
+          <Text Name="Name_13" EditorFlags="8" Duration="60" Size="500.00;40.00" Position="-130.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextHAlign="Left" TextVAlign="Center" Value="${Name_13.Text}" />
+          <Text Name="Pos_13" EditorFlags="8" Duration="60" Size="170.00;40.00" Position="220.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Color="FFD45506" TextVAlign="Center" Value="${Pos_13.Text}" />
+          <Text Name="Height_13" EditorFlags="8" Duration="60" Size="120.00;40.00" Position="385.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextVAlign="Center" Value="${Height_13.Text}" />
+          <Plate Name="Line" Duration="60" Size="1020.00;22.00" Position="0.00;-18.00;0.00" Source="File" File=".\_Assets\Line.png" />
+        </Group>
+      </Group>
+    </Group>
+  </Scene>
+</CinegyTitler>

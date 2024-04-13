@@ -1,0 +1,156 @@
+<CinegyTitler Version="2.4">
+  <RootFolder Path="C:\Data\Cinegy\Basketball\" />
+  <Variables>
+    <Var Name="Team1_Name.Text" Type="String" UpdateType="Instant" Value="Golden State Warriors" />
+    <Var Name="Team1_Logo.File" Type="File" UpdateType="Instant" Value=".\_Assets\GoldenState.png" />
+    <Var Name="Team2_Name.Text" Type="String" UpdateType="Instant" Value="Miami Heat" />
+    <Var Name="Team2_Logo.File" Type="File" UpdateType="Instant" Value=".\_Assets\MiamiHeat.png" />
+    <Var Name="Date.Text" Type="String" UpdateType="Instant" Value="26 March 2024" />
+    <Var Name="Venue.Text" Type="String" UpdateType="Instant" Value="Kaseya Center" />
+  </Variables>
+  <Scene Width="1920" Height="1080" Fps="25.000" Progressive="false" Aspect="16:9" Duration="65" Name="01_MatchID" PlayMode="Loop" LoopStartFrame="35" LoopEndFrame="40" LoopCount="-1">
+    <Group Name="Scene" Duration="65">
+      <Plate Name="Background" Duration="65" Size="1920.00;1080.00" Source="File" File=".\_Assets\MATCH_ID.mxf" />
+      <Group Name="Content" Duration="65">
+        <Text Name="Date" Duration="65" Size="400.00;65.00" Position="0.00;104.00;0.00" Font="Eurostile LT Pro Unicode;Demi;55;false;false" TextVAlign="Center" Value="${Date.Text}">
+          <Opacity>
+            <Linear Frame="21" Value="0" />
+            <Linear Frame="25" Value="100" />
+            <Linear Frame="50" Value="100" />
+            <Linear Frame="53" Value="0" />
+          </Opacity>
+          <Position>
+            <Y>
+              <Linear Frame="21" Value="85.00" />
+              <Linear Frame="25" Value="104.00" />
+              <Linear Frame="50" Value="104.00" />
+              <Linear Frame="53" Value="85.00" />
+            </Y>
+          </Position>
+        </Text>
+        <Text Name="Venue" EditorFlags="4" Duration="65" Size="400.00;65.00" Position="0.00;-148.00;0.00" Font="Eurostile LT Pro Unicode;Demi;45;false;false" TextVAlign="Center" Value="${Venue.Text}">
+          <Opacity>
+            <Linear Frame="21" Value="0" />
+            <Linear Frame="25" Value="100" />
+            <Linear Frame="50" Value="100" />
+            <Linear Frame="53" Value="0" />
+          </Opacity>
+          <Position>
+            <Y>
+              <Linear Frame="21" Value="-140.00" />
+              <Linear Frame="25" Value="-148.00" />
+              <Linear Frame="50" Value="-148.00" />
+              <Linear Frame="53" Value="-140.00" />
+            </Y>
+          </Position>
+        </Text>
+        <Group Name="Team1" Duration="65" Position="0.00;28.00;0.00">
+          <Plate Name="Team1_Mask" Duration="65" Size="876.46;95.00" Position="-26.87;2.00;0.00">
+            <Size>
+              <X>
+                <Linear Frame="3" Value="0.00" />
+                <Linear Frame="4" Value="100.00" />
+                <Linear Frame="6" Value="410.00" />
+                <Linear Frame="7" Value="525.00" />
+                <Linear Frame="8" Value="690.00" />
+                <Linear Frame="9" Value="800.00" />
+                <Linear Frame="11" Value="850.00" />
+                <Linear Frame="14" Value="900.00" />
+                <Linear Frame="18" Value="910.00" />
+                <Linear Frame="56" Value="910.00" />
+                <Linear Frame="58" Value="876.46" />
+                <Linear Frame="59" Value="839.45" />
+                <Linear Frame="60" Value="688.00" />
+                <Linear Frame="61" Value="415.00" />
+                <Linear Frame="62" Value="100.00" />
+                <Linear Frame="63" Value="0.00" />
+              </X>
+            </Size>
+            <Position>
+              <X>
+                <Linear Frame="7" Value="0.00" />
+                <Linear Frame="8" Value="-30.00" />
+                <Linear Frame="9" Value="-50.00" />
+                <Linear Frame="11" Value="-30.00" />
+                <Linear Frame="14" Value="-20.00" />
+                <Linear Frame="18" Value="-10.00" />
+                <Linear Frame="56" Value="-10.00" />
+                <Linear Frame="58" Value="-26.87" />
+                <Linear Frame="59" Value="-45.88" />
+                <Linear Frame="60" Value="-31.00" />
+                <Linear Frame="61" Value="0.00" />
+                <Linear Frame="63" Value="0.00" />
+              </X>
+            </Position>
+            <Mask />
+          </Plate>
+          <Group Name="Team1LineGroup" EditorFlags="8" Duration="65">
+            <Opacity>
+              <Linear Frame="3" Value="50" />
+              <Linear Frame="10" Value="100" />
+              <Linear Frame="55" Value="100" />
+              <Linear Frame="60" Value="50" />
+            </Opacity>
+            <Text Name="Team1_Name" Duration="65" Size="710.00;80.00" Position="50.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;80;false;false" WordWrap="false" TextVAlign="Center" Value="${Team1_Name.Text}" />
+            <Plate Name="Team1_Logo" Duration="65" Size="100.00;100.00" Position="-392.00;0.00;0.00" Source="File" File="${Team1_Logo.File}" FillMode="Fill" />
+          </Group>
+        </Group>
+        <Group Name="Team2" EditorFlags="8" Duration="60" Position="0.00;-69.00;0.00">
+          <Plate Name="Team2_Mask" EditorFlags="8" Duration="60" Size="870.18;95.00" Position="-26.04;2.00;0.00">
+            <Size>
+              <X>
+                <Linear Frame="9" Value="0.00" />
+                <Linear Frame="10" Value="100.00" />
+                <Linear Frame="11" Value="250.00" />
+                <Linear Frame="12" Value="390.00" />
+                <Linear Frame="13" Value="500.00" />
+                <Linear Frame="14" Value="670.00" />
+                <Linear Frame="15" Value="800.00" />
+                <Linear Frame="16" Value="830.00" />
+                <Linear Frame="17" Value="850.00" />
+                <Linear Frame="18" Value="870.00" />
+                <Linear Frame="25" Value="915.00" />
+                <Linear Frame="52" Value="915.00" />
+                <Linear Frame="55" Value="870.00" />
+                <Linear Frame="56" Value="830.00" />
+                <Linear Frame="57" Value="675.00" />
+                <Linear Frame="58" Value="402.00" />
+                <Linear Frame="59" Value="95.00" />
+                <Linear Frame="60" Value="0.00" />
+              </X>
+            </Size>
+            <Position>
+              <X>
+                <Linear Frame="13" Value="0.00" />
+                <Linear Frame="14" Value="-35.00" />
+                <Linear Frame="15" Value="-58.00" />
+                <Linear Frame="16" Value="-45.00" />
+                <Linear Frame="17" Value="-35.00" />
+                <Linear Frame="18" Value="-25.00" />
+                <Linear Frame="25" Value="-7.00" />
+                <Linear Frame="52" Value="-7.00" />
+                <Linear Frame="55" Value="-25.00" />
+                <Linear Frame="56" Value="-45.00" />
+                <Linear Frame="57" Value="-30.00" />
+                <Linear Frame="58" Value="0.00" />
+                <Linear Frame="59" Value="0.00" />
+                <Linear Frame="60" Value="0.00" />
+              </X>
+            </Position>
+            <Mask />
+          </Plate>
+          <Group Name="Team2LineGroup" Duration="60" Opacity="50">
+            <Opacity>
+              <Linear Frame="9" Value="50" />
+              <Linear Frame="16" Value="100" />
+              <Linear Frame="52" Value="100" />
+              <Linear Frame="57" Value="50" />
+            </Opacity>
+            <Text Name="Team2_Name" EditorFlags="8" Duration="60" Size="710.00;80.00" Position="50.00;0.00;0.00" Font="Eurostile LT Pro Unicode;Demi;80;false;false" WordWrap="false" TextVAlign="Center" Value="${Team2_Name.Text}" />
+            <Plate Name="Team2_Logo" EditorFlags="8" Duration="60" Size="100.00;100.00" Position="-392.00;0.00;0.00" Source="File" File="${Team2_Logo.File}" FillMode="Fill" />
+          </Group>
+        </Group>
+      </Group>
+    </Group>
+  </Scene>
+</CinegyTitler>

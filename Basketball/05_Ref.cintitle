@@ -1,0 +1,41 @@
+<CinegyTitler Version="2.4">
+  <RootFolder Path="C:\Data\Cinegy\Basketball\" />
+  <Variables>
+    <Var Name="REF_NAMES.Text" Type="String" UpdateType="Instant" Value="${RefFlag1} Saša [b]Pukl[/b] / ${RefFlag2} Gytis [b]Vilius[/b] / ${RefFlag3} Mehdi [b]Difallah[/b]" />
+    <Var Name="RefFlag1" Type="File" UpdateType="Instant" Value=".\_Assets\Flag_of_Slovenia.png" />
+    <Var Name="RefFlag2" Type="File" UpdateType="Instant" Value=".\_Assets\Flag_of_Lithuania.png" />
+    <Var Name="RefFlag3" Type="File" UpdateType="Instant" Value=".\_Assets\Flag_of_France.png" />
+  </Variables>
+  <Scene Width="1920" Height="1080" Fps="25.000" Progressive="false" Aspect="16:9" Duration="50" Name="05_Referees" EditorFlags="4" PlayMode="Loop" LoopStartFrame="24" LoopEndFrame="29" LoopCount="-1">
+    <Group Name="Scene" Start="1" Duration="49">
+      <Plate Name="Background" Start="1" Duration="49" Size="1920.00;1080.00" Source="File" File=".\_Assets\REF.mxf" />
+      <Plate Name="CinegyLogo" Start="1" Duration="49" Opacity="0" Size="110.00;90.00" Position="-725.00;-388.00;0.00" Source="File" File=".\_Assets\CinegyLogo_White.png">
+        <Opacity>
+          <Linear Frame="7" Value="0" />
+          <Linear Frame="10" Value="100" />
+          <Linear Frame="34" Value="100" />
+          <Linear Frame="38" Value="0" />
+        </Opacity>
+      </Plate>
+      <Group Name="Text" Duration="50">
+        <Plate Name="Mask" EditorFlags="8" Start="1" Duration="49" Size="990.00;100.00" Position="-155.00;-388.00;0.00">
+          <Position>
+            <X>
+              <Linear Frame="3" Value="-1150.00" />
+              <Linear Frame="10" Value="-470.00" />
+              <Linear Frame="18" Value="-155.00" />
+              <Linear Frame="31" Value="-155.00" />
+              <Linear Frame="34" Value="-450.00" />
+              <Linear Frame="38" Value="-1150.00" />
+            </X>
+          </Position>
+          <Mask />
+        </Plate>
+        <Text Name="RefTitle" EditorFlags="8" Start="1" Duration="49" Size="250.00;40.00" Position="-510.00;-412.00;0.00" Font="Eurostile LT Pro Unicode;Demi;40;false;true" WordWrap="false" TextHAlign="Left" TextVAlign="Center" Value="REFEREES" />
+        <Text Name="RefNames" EditorFlags="8" Start="1" Duration="49" Size="967.53;40.00" Position="-150.74;-365.00;0.00" Font="Eurostile LT Pro Unicode;Demi;40;false;false" WordWrap="false" TextHAlign="Left" TextVAlign="Center" Value="${REF_NAMES.Text}">
+          <TextAutoFit MinSize="30" PreferredSize="40" MinSpacing="-4.00;-4.00;-18.00" />
+        </Text>
+      </Group>
+    </Group>
+  </Scene>
+</CinegyTitler>

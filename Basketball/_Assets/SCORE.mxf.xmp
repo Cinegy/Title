@@ -1,0 +1,130 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.0-c001 152.deb9585, 2024/02/06-08:36:10        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+    xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
+    xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+   dc:identifier="060A2B340101010501010D00130000008B3B34F0F91811EE8745F057A698301D"
+   dc:format="Cinegy Daniel2"
+   xmpMM:InstanceID="xmp.iid:6cebb39a-af7d-9d4b-92a0-1065c1eab619"
+   xmpMM:DocumentID="d1bed1ab-f314-4cd8-c3f3-ad290000003d"
+   xmpMM:OriginalDocumentID="xmp.did:28b42b81-7616-3443-85e0-e7db3520fa1a"
+   xmp:MetadataDate="2024-04-12T23:03:54+01:00"
+   xmp:ModifyDate="2024-04-12T23:03:54+01:00"
+   xmp:CreatorTool="Adobe After Effects 2024 (Windows)"
+   xmp:CreateDate="2024-04-12T19:36:30+01:00"
+   xmpDM:videoFrameRate="25.000000"
+   xmpDM:videoFieldOrder="Progressive"
+   xmpDM:videoPixelAspectRatio="1/1"
+   xmpDM:audioSampleRate="48000"
+   xmpDM:audioSampleType="32Float"
+   xmpDM:audioChannelType="Stereo"
+   xmpDM:startTimeScale="25"
+   xmpDM:startTimeSampleSize="1">
+   <xmpMM:History>
+    <rdf:Seq>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="3fd2ba7d-5a43-9e5a-cf3d-5cce0000006a"
+      stEvt:when="2024-04-12T23:03:54+01:00"
+      stEvt:softwareAgent="Adobe Adobe Media Encoder 2024.0 (Windows)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="created"
+      stEvt:instanceID="xmp.iid:363f1e36-a8c0-bc41-acf5-e435a39fdf0e"
+      stEvt:when="2024-04-12T22:56:16+01:00"
+      stEvt:softwareAgent="Adobe After Effects 2024 (Windows)"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:6f40c10b-f426-1243-aa72-0d9403331465"
+      stEvt:when="2024-04-12T23:03:05+01:00"
+      stEvt:softwareAgent="Adobe After Effects 2024 (Windows)"
+      stEvt:changed="/content"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:4179ce01-c867-4c4b-8a2b-0a5913750b67"
+      stEvt:when="2024-04-12T23:03:05+01:00"
+      stEvt:softwareAgent="Adobe After Effects 2024 (Windows)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:dcbd991d-fbc9-1c4a-891f-0aa175ab5894"
+      stEvt:when="2024-04-12T23:03:54+01:00"
+      stEvt:softwareAgent="Adobe Adobe Media Encoder 2024.0 (Windows)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:6cebb39a-af7d-9d4b-92a0-1065c1eab619"
+      stEvt:when="2024-04-12T23:03:54+01:00"
+      stEvt:softwareAgent="Adobe Adobe Media Encoder 2024.0 (Windows)"
+      stEvt:changed="/metadata"/>
+    </rdf:Seq>
+   </xmpMM:History>
+   <xmpMM:DerivedFrom
+    stRef:instanceID="xmp.iid:6614ddb8-f895-9845-96a6-51e658f6118c"
+    stRef:documentID="xmp.did:6614ddb8-f895-9845-96a6-51e658f6118c"
+    stRef:originalDocumentID="xmp.did:363f1e36-a8c0-bc41-acf5-e435a39fdf0e"/>
+   <xmpMM:Ingredients>
+    <rdf:Bag>
+     <rdf:li
+      stRef:instanceID="xmp.iid:04622091-8f1c-3e47-a4af-637b2e4e386c"
+      stRef:fromPart="time:0d78848f25600"
+      stRef:toPart="time:0d78848f25600"
+      stRef:maskMarkers="None"/>
+    </rdf:Bag>
+   </xmpMM:Ingredients>
+   <xmpMM:Pantry>
+    <rdf:Bag>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.comp"
+       xmpMM:InstanceID="xmp.iid:04622091-8f1c-3e47-a4af-637b2e4e386c">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">SKORBOARD MAIN</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:cf723676-af89-bf47-8582-92d3aade5f5f"
+         stRef:fromPart="time:0d78848f25600"
+         stRef:toPart="time:0d78848f25600"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:cf723676-af89-bf47-8582-92d3aade5f5f">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">SKORBOARD MAIN_[00000-00076].png</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      </rdf:Description>
+     </rdf:li>
+    </rdf:Bag>
+   </xmpMM:Pantry>
+   <xmpDM:videoFrameSize
+    stDim:w="1920"
+    stDim:h="1080"
+    stDim:unit="pixel"/>
+   <xmpDM:duration
+    xmpDM:value="77"
+    xmpDM:scale="1/25"/>
+   <xmpDM:startTimecode
+    xmpDM:timeFormat="25Timecode"
+    xmpDM:timeValue="00:00:00:00"/>
+   <xmpDM:altTimecode
+    xmpDM:timeValue="00:00:00:00"
+    xmpDM:timeFormat="25Timecode"/>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

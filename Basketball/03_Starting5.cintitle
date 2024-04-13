@@ -1,0 +1,144 @@
+<CinegyTitler Version="2.4">
+  <RootFolder Path="C:\Users\absoyak\Desktop\03_Starting5\" />
+  <Variables>
+    <Var Name="Player1_Picture.File" Type="File" UpdateType="Instant" Value=".\_Assets\GSW_01.png" />
+    <Var Name="Player1_No.Text" Type="String" UpdateType="Instant" Value="#22" />
+    <Var Name="Player1_Name.Text" Type="String" UpdateType="Instant" Value="WIGGINS" />
+    <Var Name="Player2_Picture.File" Type="File" UpdateType="Instant" Value=".\_Assets\GSW_02.png" />
+    <Var Name="Player2_No.Text" Type="String" UpdateType="Instant" Value="#00" />
+    <Var Name="Player2_Name.Text" Type="String" UpdateType="Instant" Value="KUMINGA" />
+    <Var Name="Player3_Picture.File" Type="File" UpdateType="Instant" Value=".\_Assets\GSW_03.png" />
+    <Var Name="Player3_No.Text" Type="String" UpdateType="Instant" Value="#23" />
+    <Var Name="Player3_Name.Text" Type="String" UpdateType="Instant" Value="GREEN" />
+    <Var Name="Player4_Picture.File" Type="File" UpdateType="Instant" Value=".\_Assets\GSW_04.png" />
+    <Var Name="Player4_No.Text" Type="String" UpdateType="Instant" Value="#11" />
+    <Var Name="Player4_Name.Text" Type="String" UpdateType="Instant" Value="THOMPSON" />
+    <Var Name="Player5_Picture.File" Type="File" UpdateType="Instant" Value=".\_Assets\GSW_05.png" />
+    <Var Name="Player5_No.Text" Type="String" UpdateType="Instant" Value="#30" />
+    <Var Name="Player5_Name.Text" Type="String" UpdateType="Instant" Value="CURRY" />
+    <Var Name="TeamName.Text" Type="String" UpdateType="Instant" Value="GOLDEN STATE WARRIORS" />
+    <Var Name="TeamLogo.File" Type="File" UpdateType="Instant" Value=".\_Assets\GoldenState.png" />
+  </Variables>
+  <Scene Width="1920" Height="1080" Fps="25.000" Progressive="false" Aspect="16:9" Duration="50" Name="03_Starting5" EditorFlags="4" PlayMode="Loop" LoopStartFrame="20" LoopEndFrame="25" LoopCount="-1">
+    <Group Name="Scene" Duration="50">
+      <Plate Name="Background" Duration="50" Size="1920.00;1080.00" Source="File" File=".\_Assets\STARTING_5.mxf" />
+      <Group Name="Content" Duration="50">
+        <Text Name="Title" Duration="50" Opacity="0" Size="430.00;40.00" Position="0.00;243.00;0.00" Font="Eurostile LT Pro Unicode;Demi;45;false;false" TextVAlign="Center" Value="STARTING FIVE">
+          <Opacity>
+            <Linear Frame="12" Value="0" />
+            <Linear Frame="14" Value="100" />
+            <Linear Frame="27" Value="100" />
+            <Linear Frame="30" Value="0" />
+          </Opacity>
+          <Shadow Blur="1.00" Distance="5.00" />
+        </Text>
+        <Plate Name="AnimationMask" Duration="50" Size="1410.00;467.51" Position="0.00;-12.59;0.00">
+          <Size>
+            <Y>
+              <Linear Frame="0" Value="0.00" />
+              <Linear Frame="1" Value="4.00" />
+              <Linear Frame="2" Value="7.00" />
+              <Linear Frame="3" Value="15.00" />
+              <Linear Frame="4" Value="39.00" />
+              <Linear Frame="5" Value="95.00" />
+              <Linear Frame="6" Value="245.00" />
+              <Linear Frame="7" Value="368.00" />
+              <Linear Frame="10" Value="430.00" />
+              <Linear Frame="17" Value="500.00" />
+              <Linear Frame="35" Value="500.00" />
+              <Linear Frame="36" Value="465.00" />
+              <Linear Frame="37" Value="355.00" />
+              <Linear Frame="38" Value="135.00" />
+              <Linear Frame="39" Value="60.00" />
+              <Linear Frame="40" Value="30.00" />
+              <Linear Frame="41" Value="15.00" />
+              <Linear Frame="42" Value="5.00" />
+              <Linear Frame="43" Value="0.00" />
+            </Y>
+          </Size>
+          <Position>
+            <Y>
+              <Linear Frame="0" Value="0.00" />
+              <Linear Frame="1" Value="29.00" />
+              <Linear Frame="2" Value="29.00" />
+              <Linear Frame="3" Value="29.00" />
+              <Linear Frame="4" Value="29.50" />
+              <Linear Frame="5" Value="30.00" />
+              <Linear Frame="6" Value="31.00" />
+              <Linear Frame="7" Value="7.50" />
+              <Linear Frame="10" Value="7.00" />
+              <Linear Frame="17" Value="-18.00" />
+              <Linear Frame="35" Value="-18.00" />
+              <Linear Frame="36" Value="-13.00" />
+              <Linear Frame="37" Value="-4.00" />
+              <Linear Frame="38" Value="-11.00" />
+              <Linear Frame="39" Value="-13.00" />
+              <Linear Frame="40" Value="-15.00" />
+            </Y>
+          </Position>
+          <Mask />
+        </Plate>
+        <Group Name="Player_1" EditorFlags="8" Duration="50" Position="-561.50;0.00;0.00">
+          <Opacity>
+            <Linear Frame="2" Value="30" />
+            <Linear Frame="7" Value="100" />
+            <Linear Frame="36" Value="100" />
+            <Linear Frame="42" Value="20" />
+          </Opacity>
+          <Plate Name="Player1_Picture" Duration="50" Size="275.00;355.00" Position="0.00;43.00;0.00" Source="File" File="${Player1_Picture.File}" FillMode="Fill" />
+          <Text Name="Player1_No" Duration="50" Size="90.00;60.00" Position="-90.00;-170.00;0.00" Font="Eurostile LT Pro Unicode;Demi;55;false;false" Color="FFC0C0C0" TextHAlign="Left" TextVAlign="Center" Value="${Player1_No.Text}" />
+          <Text Name="Player1_Name" Duration="50" Size="200.00;60.00" Position="35.00;-170.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextVAlign="Center" Value="${Player1_Name.Text}" />
+        </Group>
+        <Group Name="Player_2" EditorFlags="8" Duration="50" Position="-280.50;0.00;0.00">
+          <Opacity>
+            <Linear Frame="2" Value="30" />
+            <Linear Frame="7" Value="100" />
+            <Linear Frame="36" Value="100" />
+            <Linear Frame="42" Value="20" />
+          </Opacity>
+          <Plate Name="Player2_Picture" EditorFlags="8" Duration="50" Size="275.00;355.00" Position="0.00;43.00;0.00" Source="File" File="${Player2_Picture.File}" FillMode="Fill" />
+          <Text Name="Player2_No" Duration="50" Size="90.00;60.00" Position="-90.00;-170.00;0.00" Font="Eurostile LT Pro Unicode;Demi;55;false;false" Color="FFC0C0C0" TextHAlign="Left" TextVAlign="Center" Value="${Player2_No.Text}" />
+          <Text Name="Player2_Name" EditorFlags="8" Duration="50" Size="200.00;60.00" Position="35.00;-170.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextVAlign="Center" Value="${Player2_Name.Text}" />
+        </Group>
+        <Group Name="Player_3" EditorFlags="8" Duration="50" Position="2.00;0.00;0.00">
+          <Opacity>
+            <Linear Frame="2" Value="30" />
+            <Linear Frame="7" Value="100" />
+            <Linear Frame="36" Value="100" />
+            <Linear Frame="42" Value="20" />
+          </Opacity>
+          <Plate Name="Player3_Picture" Duration="50" Size="275.00;355.00" Position="0.00;43.00;0.00" Source="File" File="${Player3_Picture.File}" FillMode="Fill" />
+          <Text Name="Player3_No" Duration="50" Size="90.00;60.00" Position="-90.00;-170.00;0.00" Font="Eurostile LT Pro Unicode;Demi;55;false;false" Color="FFC0C0C0" TextHAlign="Left" TextVAlign="Center" Value="${Player3_No.Text}" />
+          <Text Name="Player3_Name" Duration="50" Size="200.00;60.00" Position="35.00;-170.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextVAlign="Center" Value="${Player3_Name.Text}" />
+        </Group>
+        <Group Name="Player_4" EditorFlags="8" Duration="50" Position="283.50;0.00;0.00">
+          <Opacity>
+            <Linear Frame="2" Value="30" />
+            <Linear Frame="7" Value="100" />
+            <Linear Frame="36" Value="100" />
+            <Linear Frame="42" Value="20" />
+          </Opacity>
+          <Plate Name="Player4_Picture" Duration="50" Size="275.00;355.00" Position="0.00;43.00;0.00" Source="File" File="${Player4_Picture.File}" FillMode="Fill" />
+          <Text Name="Player4_No" Duration="50" Size="90.00;60.00" Position="-90.00;-170.00;0.00" Font="Eurostile LT Pro Unicode;Demi;55;false;false" Color="FFC0C0C0" TextHAlign="Left" TextVAlign="Center" Value="${Player4_No.Text}" />
+          <Text Name="Player4_Name" Duration="50" Size="200.00;60.00" Position="35.00;-170.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextVAlign="Center" Value="${Player4_Name.Text}" />
+        </Group>
+        <Group Name="Player_5" EditorFlags="8" Duration="50" Position="564.50;0.00;0.00">
+          <Opacity>
+            <Linear Frame="2" Value="30" />
+            <Linear Frame="7" Value="100" />
+            <Linear Frame="36" Value="100" />
+            <Linear Frame="42" Value="20" />
+          </Opacity>
+          <Plate Name="Player5_Picture" EditorFlags="8" Duration="50" Size="275.00;355.00" Position="0.00;43.00;0.00" Source="File" File="${Player5_Picture.File}" FillMode="Fill" />
+          <Text Name="Player5_No" EditorFlags="8" Duration="50" Size="90.00;60.00" Position="-90.00;-170.00;0.00" Font="Eurostile LT Pro Unicode;Demi;55;false;false" Color="FFC0C0C0" TextHAlign="Left" TextVAlign="Center" Value="${Player5_No.Text}" />
+          <Text Name="Player5_Name" EditorFlags="8" Duration="50" Size="200.00;60.00" Position="35.00;-170.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextVAlign="Center" Value="${Player5_Name.Text}" />
+        </Group>
+        <Text Name="TeamName" Duration="50" Size="600.00;40.00" Position="-19.00;-227.00;0.00" Font="Eurostile LT Pro Unicode;Demi;45;false;false" Color="FF000000" TextVAlign="Center" Value="${TeamName.Text}" />
+        <Plate Name="LogoMask" Start="15" Duration="20" Size="100.00;58.00" Position="-640.00;-230.00;0.00">
+          <Mask />
+        </Plate>
+        <Plate Name="TeamLogo" Start="15" Duration="20" Size="90.00;90.00" Position="-640.00;-231.00;0.00" Source="File" File="${TeamLogo.File}" />
+      </Group>
+    </Group>
+  </Scene>
+</CinegyTitler>
