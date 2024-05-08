@@ -1,5 +1,5 @@
 <CinegyTitler Version="2.4">
-  <RootFolder Path="C:\Data\Cinegy\Basketball\" />
+  <RootFolder Path="C:\Dev\GitHub\Cinegy\Title\Basketball\" />
   <Variables>
     <Var Name="REF_NAMES.Text" Type="String" UpdateType="Instant" Value="${RefFlag1} Saša [b]Pukl[/b] / ${RefFlag2} Gytis [b]Vilius[/b] / ${RefFlag3} Mehdi [b]Difallah[/b]" />
     <Var Name="RefFlag1" Type="File" UpdateType="Instant" Value=".\_Assets\Flag_of_Slovenia.png" />

@@ -1,5 +1,5 @@
 <CinegyTitler Version="2.4">
-  <RootFolder Path="C:\Users\absoyak\Desktop\03_Starting5\" />
+  <RootFolder Path="C:\Dev\GitHub\Cinegy\Title\Basketball\" />
   <Variables>
     <Var Name="Player1_Picture.File" Type="File" UpdateType="Instant" Value=".\_Assets\GSW_01.png" />
     <Var Name="Player1_No.Text" Type="String" UpdateType="Instant" Value="#22" />

@@ -1,5 +1,5 @@
 <CinegyTitler Version="2.4">
-  <RootFolder Path="C:\Data\Cinegy\Basketball\" />
+  <RootFolder Path="C:\Dev\GitHub\Cinegy\Title\Basketball\" />
   <Variables>
     <Var Name="CLOCK.Text" Type="String" UpdateType="Instant" Value="10:00" />
     <Var Name="TEAM1LONGNAME.Text" Type="String" UpdateType="Instant" Value="Golden State Warriors" />
@@ -10,6 +10,8 @@
     <Var Name="TEAM2LSHORTNAME.Text" Type="String" UpdateType="Instant" Value="HEAT" />
     <Var Name="TEAM1LOGO.File" Type="File" UpdateType="Instant" Value=".\_Assets\GoldenState.png" />
     <Var Name="TEAM2LOGO.File" Type="File" UpdateType="Instant" Value=".\_Assets\MiamiHeat.png" />
+    <Var Name="Timer.Start Value" Type="Float" UpdateType="Instant" Value="600.00" />
+    <Var Name="Timer.Run" Type="Bool" UpdateType="Instant" Value="True" />
   </Variables>
   <Scene Width="1920" Height="1080" Fps="25.000" Progressive="false" Aspect="16:9" Duration="101" Name="04_Score" PlayMode="Loop" LoopStartFrame="75" LoopEndFrame="80" LoopCount="-1">
     <Group Name="Scene" Start="1" Duration="99" Opacity="0">
@@ -67,27 +69,27 @@
             <Linear Frame="40" Value="0" />
           </Opacity>
         </Text>
-        <Text Name="PeriodNameDown" EditorFlags="12" Start="46" Duration="55" Opacity="0" Size="90.00;50.00" Position="426.00;-422.00;0.00" Font="Eurostile LT Pro Unicode;Demi;45;false;false" TextVAlign="Center" Value="H.T.">
+        <Text Name="PeriodNameDown" EditorFlags="8" Start="46" Duration="55" Opacity="0" Size="90.00;50.00" Position="426.00;-422.00;0.00" Font="Eurostile LT Pro Unicode;Demi;45;false;false" TextVAlign="Center" Value="H.T.">
           <Opacity>
             <Linear Frame="46" Value="0" />
             <Linear Frame="51" Value="0" />
             <Linear Frame="53" Value="100" />
           </Opacity>
         </Text>
-        <Text Name="Timer" Start="1" Duration="100" Size="120.00;50.00" Position="47.00;-358.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" TextVAlign="Center" Value="${CLOCK.Text}">
+        <Clock Name="Timer" EditorFlags="4" Start="1" Duration="100" Opacity="0" Size="120.00;50.00" Position="47.00;-358.00;0.00" Font="Eurostile LT Pro Unicode;Demi;35;false;false" Value="Text" Run="${Timer.Run}" Type="Countdown" TimeFormat="mm:ss" ActionOnEnd="LeaveLoop" StartValue="${Timer.Start Value}" TimeOffset="00:00:00.000">
           <Opacity>
             <Linear Frame="20" Value="0" />
             <Linear Frame="23" Value="100" />
             <Linear Frame="36" Value="100" />
             <Linear Frame="40" Value="0" />
           </Opacity>
-        </Text>
-        <Text Name="TimerDown" Start="1" Duration="100" Opacity="0" Size="120.00;50.00" Position="528.00;-422.00;0.00" Font="Eurostile LT Pro Unicode;Demi;45;false;false" TextVAlign="Center" Value="${CLOCK.Text}">
+        </Clock>
+        <Clock Name="TimerDown" EditorFlags="8" Start="1" Duration="100" Opacity="0" Size="120.00;50.00" Position="528.00;-422.00;0.00" Font="Eurostile LT Pro Unicode;Demi;45;false;false" Value="Text" Run="${Timer.Run}" Type="Countdown" TimeFormat="mm:ss" ActionOnEnd="LeaveLoop" StartValue="${Timer.Start Value}" TimeOffset="00:00:00.000">
           <Opacity>
             <Linear Frame="52" Value="0" />
             <Linear Frame="57" Value="100" />
           </Opacity>
-        </Text>
+        </Clock>
         <Text Name="Score_01" EditorFlags="8" Start="1" Duration="100" Size="100.00;50.00" Position="-55.00;-413.00;0.00" Font="Eurostile LT Pro Unicode;Demi;65;false;false" Color="FF000000" TextVAlign="Center" Value="${TEAM1SCORE.Text}">
           <Opacity>
             <Linear Frame="12" Value="0" />

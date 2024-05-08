@@ -1,5 +1,5 @@
 <CinegyTitler Version="2.4">
-  <RootFolder Path="C:\Data\Cinegy\Basketball\" />
+  <RootFolder Path="C:\Dev\GitHub\Cinegy\Title\Basketball\" />
   <Variables>
     <Var Name="Team1_Name.Text" Type="String" UpdateType="Instant" Value="Golden State Warriors" />
     <Var Name="Team1_Logo.File" Type="File" UpdateType="Instant" Value=".\_Assets\GoldenState.png" />
